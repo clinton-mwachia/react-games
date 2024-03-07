@@ -2,11 +2,16 @@
   <img src="src/assets/react.svg" alt="React Icon" width="200" height="200">
 </p>
 
-# Games
+# Games Hub
 
-Games built with React and Chakraui
+A collection of web games built with React and Chakraui.
 
-# Games
+## Table of Contents
 
-1. Game 1
+1. Color Matching Game
+
+    - You are provided with the name of a color, when you guess the color right, you get 1 else 0.
+
 2. Game 2
+
+    - game 2 description
