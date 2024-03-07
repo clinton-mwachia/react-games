@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Container, Text, SimpleGrid, Button, Heading } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import { Switch } from "@chakra-ui/react";
@@ -5,21 +6,19 @@ import { Switch } from "@chakra-ui/react";
 const ColorMatching = () => {
   const [targetColor, setTargetColor] = useState("");
   const [score, setScore] = useState(0);
-  const [timer, setTimer] = useState(60); // Set the initial timer value in seconds
+  const [timer, setTimer] = useState(60); // initial timer value in seconds
   const [highestScores, setHighestScores] = useState([]);
   const [isHardMode, setIsHardMode] = useState(false);
 
   useEffect(() => {
     generateTargetColor();
     startTimer();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     if (timer === 0) {
       handleGameOver();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timer]);
 
   const colors = [
@@ -56,7 +55,7 @@ const ColorMatching = () => {
   };
 
   const updateHighestScores = () => {
-    // Assuming you want to store the top 5 scores
+    //  store the top 5 scores
     const newScores = [...highestScores, score]
       .sort((a, b) => b - a)
       .slice(0, 5);
