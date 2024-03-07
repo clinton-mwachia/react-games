@@ -13,7 +13,7 @@ const Home = () => {
       {/* Header */}
       <Box bg="blue.500" p={4} color="white">
         <Heading as="h1" size="2xl">
-          Welcome to GameHive!
+          Welcome to GameHub!
         </Heading>
       </Box>
       {/* Hero Section */}
