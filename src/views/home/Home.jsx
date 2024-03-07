@@ -3,18 +3,10 @@ import { SimpleGrid, Heading, Text, Button, Container } from "@chakra-ui/react";
 
 const Home = () => {
   const games = [
-    { id: 1, name: "Game 1" },
-    { id: 2, name: "Game 2" },
-    { id: 3, name: "Game 3" },
-    { id: 4, name: "Game 4" },
-    { id: 5, name: "Game 5" },
-    { id: 6, name: "Game 6" },
-    { id: 7, name: "Game 7" },
-    { id: 8, name: "Game 8" },
-    { id: 9, name: "Game 9" },
-    { id: 10, name: "Game 10" },
-    { id: 11, name: "Game 11" },
-    { id: 12, name: "Game 12" },
+    { to: "/color-matching", name: "color-matching" },
+    { to: "/2", name: "game 2" },
+    { to: "/3", name: "game 3" },
+    { to: "/4", name: "game 4" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
@@ -42,13 +34,13 @@ const Home = () => {
           Featured Games
         </Heading>
         <SimpleGrid columns={[1, 2, 3]} spacing={4}>
-          {games.map((game) => (
+          {games.map((game, index) => (
             <Button
-              key={game.id}
+              key={index}
               colorScheme="blue"
               size="lg"
-              as="a"
-              href={`/${game.id}`}
+              as={"a"}
+              href={`${game.to}`}
             >
               {game.name}
             </Button>
