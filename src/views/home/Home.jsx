@@ -1,7 +1,11 @@
 import { Box } from "@chakra-ui/react";
 import { SimpleGrid, Heading, Text, Button, Container } from "@chakra-ui/react";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Game-Hub";
+  }, []);
   const games = [
     { to: "/color-matching", name: "color-matching" },
     { to: "/2", name: "game 2" },
