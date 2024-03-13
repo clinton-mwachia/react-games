@@ -7,6 +7,7 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 const ColorMatching = lazy(() =>
   import("./views/color-matching/ColorMatching")
 );
+const Snake = lazy(() => import("./views/snake-game/Snake"));
 
 const Loading = () => {
   return <p>loading...</p>;
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />;
           <Route path="/color-matching" element={<ColorMatching />} />
+          <Route path="/snake-game" element={<Snake />} />
           <Route path={"*"} element={<NotFound />} />;
         </Routes>
       </Suspense>
