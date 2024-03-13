@@ -1,7 +1,16 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { Container, Text, SimpleGrid, Button, Heading } from "@chakra-ui/react";
+import {
+  Container,
+  Text,
+  SimpleGrid,
+  Button,
+  Heading,
+  Box,
+} from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import { Switch } from "@chakra-ui/react";
+import { ArrowBackIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 const ColorMatching = () => {
   const [targetColor, setTargetColor] = useState("");
@@ -11,7 +20,9 @@ const ColorMatching = () => {
   const [isHardMode, setIsHardMode] = useState(false);
 
   useEffect(() => {
-    //generate tarfget color on mount
+    // update page title
+    document.title = "Game-Hub/color matching";
+    //generate target color on mount
     generateTargetColor();
     // start count down timer
     startTimer();
@@ -122,6 +133,10 @@ const ColorMatching = () => {
       <Text mt={4} fontSize="lg" fontWeight="bold">
         Highest Scores: {highestScores.join(", ")}
       </Text>
+      <Box mt={"5px"}>
+        <ArrowBackIcon />
+        <Link to={"/"}>All Games</Link>
+      </Box>
     </Container>
   );
 };
