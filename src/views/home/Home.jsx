@@ -8,7 +8,7 @@ const Home = () => {
   }, []);
   const games = [
     { to: "/color-matching", name: "color-matching" },
-    { to: "/2", name: "game 2" },
+    { to: "/snake-game", name: "snake-game" },
     { to: "/3", name: "game 3" },
     { to: "/4", name: "game 4" },
   ];
