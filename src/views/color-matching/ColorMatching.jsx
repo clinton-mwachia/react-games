@@ -11,16 +11,20 @@ const ColorMatching = () => {
   const [isHardMode, setIsHardMode] = useState(false);
 
   useEffect(() => {
+    //generate tarfget color on mount
     generateTargetColor();
+    // start count down timer
     startTimer();
   }, []);
 
   useEffect(() => {
     if (timer === 0) {
+      // if timer is 0 handle game over
       handleGameOver();
     }
   }, [timer]);
 
+  // a list of colors to choose from
   const colors = [
     { name: "Red", value: "red" },
     { name: "Green", value: "green" },
@@ -33,12 +37,12 @@ const ColorMatching = () => {
     { name: "Brown", value: "Brown" },
     { name: "Aqua", value: "Aqua" },
   ];
-
+  // a function to generate target color from the list of colors
   const generateTargetColor = () => {
     const randomIndex = Math.floor(Math.random() * colors.length);
     setTargetColor(colors[randomIndex]);
   };
-
+  // update score when the right color is clicked
   const handleColorClick = (color) => {
     if (color.value === targetColor.value) {
       setScore(score + 1);
@@ -47,7 +51,7 @@ const ColorMatching = () => {
       handleGameOver();
     }
   };
-
+  // update score and reset game on game over (timer == 0)
   const handleGameOver = () => {
     alert(`Game Over! Your score: ${score}`);
     updateHighestScores();
@@ -67,7 +71,7 @@ const ColorMatching = () => {
     setTimer(60);
     generateTargetColor();
   };
-
+  // timer
   const startTimer = () => {
     const interval = setInterval(() => {
       setTimer((prevTimer) => (prevTimer > 0 ? prevTimer - 1 : 0));
