@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Container, Heading, Text, Button, Input } from "@chakra-ui/react";
+import { Container, Heading, Text, Button, Input, Box } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { ArrowBackIcon } from "@chakra-ui/icons";
 
 const GuessNumber = () => {
   const [secretNumber, setSecretNumber] = useState(generateRandomNumber());
@@ -51,6 +52,9 @@ const GuessNumber = () => {
       alignItems={"center"}
       mt={"10"}
       p={10}
+      border={"2px"}
+      borderRadius={"10px"}
+      marginTop={"10"}
     >
       <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
         GAMING HUB
@@ -75,7 +79,10 @@ const GuessNumber = () => {
       <br />
       <Text mt={4}>Guesses count: {guessCount}</Text>
       <Text mt={2}>Guesses: {guesses.join(", ")}</Text>
-      <Link to={"/"}>Home</Link>
+      <Box mt={"10"}>
+        <ArrowBackIcon />
+        <Link to={"/"}>Back Home</Link>
+      </Box>
     </Container>
   );
 };
