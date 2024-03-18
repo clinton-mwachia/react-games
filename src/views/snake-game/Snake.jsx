@@ -6,6 +6,7 @@ import {
   ArrowBackIcon,
   ArrowForwardIcon,
 } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 const Snake = () => {
   const initialSnake = [
@@ -217,6 +218,10 @@ const Snake = () => {
           </Button>
         </Box>
       </Flex>
+      <Box mt={"10"}>
+        <ArrowBackIcon />
+        <Link to={"/"}>Back Home</Link>
+      </Box>
     </Container>
   );
 };
