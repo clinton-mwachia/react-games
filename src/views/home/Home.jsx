@@ -10,7 +10,7 @@ const Home = () => {
     { to: "/color-matching", name: "color-matching" },
     { to: "/snake-game", name: "snake-game" },
     { to: "/guess-number", name: "guess-number" },
-    { to: "/4", name: "game 4" },
+    { to: "/guess-capital-city", name: "guess-capital" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
