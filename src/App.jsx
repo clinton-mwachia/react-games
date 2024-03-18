@@ -8,6 +8,7 @@ const ColorMatching = lazy(() =>
   import("./views/color-matching/ColorMatching")
 );
 const Snake = lazy(() => import("./views/snake-game/Snake"));
+const GuessNumber = lazy(() => import("./views/guess-number/GuessNumber"));
 
 const Loading = () => {
   return <p>loading...</p>;
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/" element={<Home />} />;
           <Route path="/color-matching" element={<ColorMatching />} />
           <Route path="/snake-game" element={<Snake />} />
+          <Route path="/guess-number" element={<GuessNumber />} />
           <Route path={"*"} element={<NotFound />} />;
         </Routes>
       </Suspense>
