@@ -41,7 +41,7 @@ const GuessNumber = () => {
   const reStart = () => {
     setGuessCount(0);
     setGuesses([]);
-    setMessage("Restart Game");
+    setMessage("Restart");
   };
 
   return (
