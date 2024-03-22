@@ -12,6 +12,18 @@ A collection of web games built with React and Chakraui.
 
     - You are provided with the name of a color, when you guess the color right, you get 1 else 0.
 
-2. Game 2
+2. Snake
 
-    - game 2 description
+    - move the snake around to feed it and earn points
+
+3. Guess the number
+
+    - Guess a number, if it equals the randomly selected number, you win
+
+4. Guess Capital City
+
+    - Guess the CC of a given country, and earn points when correct.
+
+5. Guess Animal
+
+    - Guess the animal based on main features and earn points when correct.
