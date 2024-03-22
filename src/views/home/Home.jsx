@@ -11,6 +11,7 @@ const Home = () => {
     { to: "/snake-game", name: "snake-game" },
     { to: "/guess-number", name: "guess-number" },
     { to: "/guess-capital-city", name: "guess-capital" },
+    { to: "/guess-animal", name: "guess-animal" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
