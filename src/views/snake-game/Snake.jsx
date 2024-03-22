@@ -174,7 +174,7 @@ const Snake = () => {
           [...Array(10)].map((_, colIndex) => (
             <Button
               key={`${rowIndex}-${colIndex}`}
-              h={{ base: "16px", md: "40px" }}
+              h={{ base: "10px", md: "20px" }}
               bg={
                 snake.some(
                   (segment) => segment.x === colIndex && segment.y === rowIndex
