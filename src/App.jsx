@@ -12,9 +12,10 @@ const GuessNumber = lazy(() => import("./views/guess-number/GuessNumber"));
 const GuessCapitalCity = lazy(() =>
   import("./views/guess-capital-city/GuessCapitalCity")
 );
+const GuessAnimal = lazy(() => import("./views/guess-animal/GuessAnimal"));
 
 const Loading = () => {
-  return <p>loading...</p>;
+  return <p>loading..</p>;
 };
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/snake-game" element={<Snake />} />
           <Route path="/guess-number" element={<GuessNumber />} />
           <Route path="/guess-capital-city" element={<GuessCapitalCity />} />
+          <Route path="/guess-animal" element={<GuessAnimal />} />
           <Route path={"*"} element={<NotFound />} />;
         </Routes>
       </Suspense>
