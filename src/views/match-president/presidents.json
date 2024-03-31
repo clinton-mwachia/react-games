@@ -1,0 +1,9 @@
+{
+  "presidents": [
+    { "name": "Cyril Ramaphosa", "country": "South Africa" },
+    { "name": "Nana Akufo-Addo", "country": "Ghana" },
+    { "name": "Uhuru Kenyatta", "country": "Kenya" },
+    { "name": "Uhuru Kenyatta2", "country": "Kenya2" },
+    { "name": "Uhuru Kenyatta3", "country": "Kenya3" }
+  ]
+}
