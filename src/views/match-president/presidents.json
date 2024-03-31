@@ -1,9 +1,10 @@
 {
   "presidents": [
-    { "name": "Cyril Ramaphosa", "country": "South Africa" },
-    { "name": "Nana Akufo-Addo", "country": "Ghana" },
-    { "name": "Uhuru Kenyatta", "country": "Kenya" },
-    { "name": "Uhuru Kenyatta2", "country": "Kenya2" },
-    { "name": "Uhuru Kenyatta3", "country": "Kenya3" }
+    { "name": "Abdelmadjid Tebboune", "country": "Algeria" },
+    { "name": "João Lourenço", "country": "Angola" },
+    { "name": "Patrice Talon", "country": "Benin" },
+    { "name": "Mokgweetsi Masisi", "country": "Botswana" },
+    { "name": "Ibrahim Traoré", "country": "Burkina Farso" },
+    { "name": "Évariste Ndayishimiye", "country": "Burundi" }
   ]
 }
