@@ -45,8 +45,8 @@ const ColorMatching = () => {
     { name: "Grey", value: "grey" },
     { name: "Black", value: "black" },
     { name: "Orange", value: "orange" },
-    { name: "Brown", value: "Brown" },
-    { name: "Aqua", value: "Aqua" },
+    { name: "Brown", value: "brown" },
+    { name: "Aqua", value: "aqua" },
   ];
   // a function to generate target color from the list of colors
   const generateTargetColor = () => {
