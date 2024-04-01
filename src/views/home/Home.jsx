@@ -24,15 +24,12 @@ const Home = () => {
       </Box>
       {/* Hero Section */}
       <Container maxW="container.xl" py={20}>
-        <Heading as="h2" size="xl" mb={6}>
-          Play Your Favorite Games Online
+        <Heading as="h2" size="xl" mb={3}>
+          Play Your Favorite Games As you Learn
         </Heading>
         <Text fontSize="lg" mb={8}>
-          Your ultimate destination for endless online gaming.
+          Your ultimate destination for endless online learning.
         </Text>
-        <Button colorScheme="blue" size="lg">
-          Get Started
-        </Button>
       </Container>
       {/* Featured Games Section */}
       <Container maxW="container.xl" pb={20}>
