@@ -5,6 +5,196 @@
     { "name": "Patrice Talon", "country": "Benin" },
     { "name": "Mokgweetsi Masisi", "country": "Botswana" },
     { "name": "Ibrahim Traoré", "country": "Burkina Farso" },
-    { "name": "Évariste Ndayishimiye", "country": "Burundi" }
+    { "name": "Évariste Ndayishimiye", "country": "Burundi" },
+    { "name": "Paul Biya", "country": "Cameron" },
+    { "name": "José Maria Neves", "country": "Cape Verde" },
+    {
+      "name": "Faustin-Archange Touadéra",
+      "country": "Central African Republic"
+    },
+    {
+      "name": "Mahamat Déby",
+      "country": "Chad"
+    },
+    {
+      "name": "Azali Assoumani",
+      "country": "Comoros"
+    },
+    {
+      "name": "Denis Sassou Nguesso",
+      "country": "Republic of Congo"
+    },
+    {
+      "name": "Ismaïl Omar Guelleh",
+      "country": "Djibouti"
+    },
+    {
+      "name": "Abdel Fattah el-Sisi",
+      "country": "Egypt"
+    },
+    {
+      "name": "Teodoro Obiang Nguema Mbasogo",
+      "country": "Equatorial Guinea"
+    },
+    {
+      "name": "Isaias Afwerki",
+      "country": "Eritrea"
+    },
+    {
+      "name": "Mswati III",
+      "country": "Eswatini"
+    },
+    {
+      "name": "Sahle-Work Zewde",
+      "country": "Ethiopia"
+    },
+    {
+      "name": "Brice Clotaire Oligui Nguema",
+      "country": "Gabon"
+    },
+    {
+      "name": "Adama Barrow",
+      "country": "Gambia"
+    },
+    {
+      "name": "Nana Akufo-Addo",
+      "country": "Ghana"
+    },
+    {
+      "name": "Mamady Doumbouya",
+      "country": "Guinea"
+    },
+    {
+      "name": "Umaro Sissoco Embaló",
+      "country": "Guinea-Bissau"
+    },
+    {
+      "name": "Alassane Ouattara",
+      "country": "Ivory Coast"
+    },
+    {
+      "name": "William Ruto",
+      "country": "Kenya"
+    },
+    {
+      "name": "Letsie III",
+      "country": "Lesotho"
+    },
+    {
+      "name": "Joseph Boakai",
+      "country": "Liberia"
+    },
+    {
+      "name": "Mohamed al-Menfi",
+      "country": "Libya"
+    },
+    {
+      "name": "Andry Rajoelina",
+      "country": "Madagascar"
+    },
+    {
+      "name": "Lazarus Chakwera",
+      "country": "Malawi"
+    },
+    {
+      "name": "Assimi Goïta",
+      "country": "Mali"
+    },
+    {
+      "name": "Mohamed Ould Ghazouani",
+      "country": "Mauritania"
+    },
+    {
+      "name": "Pritvirajsing Roopun",
+      "country": "Mauritius"
+    },
+    {
+      "name": "Mohammed VI",
+      "country": "Morocco"
+    },
+    {
+      "name": "Filipe Nyusi",
+      "country": "Mozambique"
+    },
+    {
+      "name": "Nangolo Mbumba",
+      "country": "Namibia"
+    },
+    {
+      "name": "Abdourahamane Tchiani",
+      "country": "Niger"
+    },
+    {
+      "name": "Bola Tinubu",
+      "country": "Nigeria"
+    },
+    {
+      "name": "Paul Kagame",
+      "country": "Rwanda"
+    },
+    {
+      "name": "Brahim Ghali",
+      "country": "Sahrawi Arab Democratic Republic"
+    },
+    {
+      "name": "Carlos Vila Nova",
+      "country": "Sao Tome and Principe"
+    },
+    {
+      "name": "Bassirou Diomaye Faye",
+      "country": "Senegal"
+    },
+    {
+      "name": "Wavel Ramkalawan",
+      "country": "Seychelles"
+    },
+    {
+      "name": "Julius Maada Bio",
+      "country": "Sierra Leone"
+    },
+    {
+      "name": "Hassan Sheikh Mohamud",
+      "country": "Somalia"
+    },
+    {
+      "name": "Muse Bihi Abdi",
+      "country": "Somaliland"
+    },
+    {
+      "name": "Cyril Ramaphosa",
+      "country": "South Africa"
+    },
+    {
+      "name": "Salva Kiir Mayardit",
+      "country": "South Sudan"
+    },
+    {
+      "name": "Abdel Fattah al-Burhan",
+      "country": "Sudan"
+    },
+    {
+      "name": "Samia Suluhu",
+      "country": "Tanzania"
+    },
+    {
+      "name": "Faure Gnassingbé",
+      "country": "Togo"
+    },
+    {
+      "name": "Kais Saied",
+      "country": "Tunisia"
+    },
+    {
+      "name": "Yoweri Museveni",
+      "country": "Uganda"
+    },
+    {
+      "name": "Hakainde Hichilema",
+      "country": "Zambia"
+    },
+    {
+      "name": "Emmerson Mnangagwa",
+      "country": "Zimbabwe"
+    }
   ]
 }
