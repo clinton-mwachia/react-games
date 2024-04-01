@@ -16,6 +16,9 @@ const GuessAnimal = lazy(() => import("./views/guess-animal/GuessAnimal"));
 const MatchPresident = lazy(() =>
   import("./views/match-president/MatchPresident")
 );
+const MatchCountryFlags = lazy(() =>
+  import("./views/match-country-flags/MatchCountryFlags")
+);
 
 const Loading = () => {
   return <p>loading..</p>;
@@ -33,6 +36,7 @@ function App() {
           <Route path="/guess-capital-city" element={<GuessCapitalCity />} />
           <Route path="/guess-animal" element={<GuessAnimal />} />
           <Route path="/match-president" element={<MatchPresident />} />
+          <Route path="/match-country-flags" element={<MatchCountryFlags />} />
           <Route path={"*"} element={<NotFound />} />;
         </Routes>
       </Suspense>
