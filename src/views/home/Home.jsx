@@ -13,6 +13,7 @@ const Home = () => {
     { to: "/guess-capital-city", name: "guess-capital" },
     { to: "/guess-animal", name: "guess-animal" },
     { to: "/match-president", name: "match-president" },
+    { to: "/match-country-flags", name: "match-country-flag" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
