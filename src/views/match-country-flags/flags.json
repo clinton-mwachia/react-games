@@ -1,0 +1,220 @@
+{
+  "flags": [
+    {
+      "country": "South Africa",
+      "flagUrl": "https://flagcdn.com/za.svg"
+    },
+    {
+      "country": "Nigeria",
+      "flagUrl": "https://flagcdn.com/ng.svg"
+    },
+    {
+      "country": "Algeria",
+      "flagUrl": "https://flagcdn.com/dz.svg"
+    },
+    {
+      "country": "Angola",
+      "flagUrl": "https://flagcdn.com/ao.svg"
+    },
+    {
+      "country": "Benin",
+      "flagUrl": "https://flagcdn.com/bj.svg"
+    },
+    {
+      "country": "Botswana",
+      "flagUrl": "https://flagcdn.com/bw.svg"
+    },
+    {
+      "country": "Burkina Faso",
+      "flagUrl": "https://flagcdn.com/bf.svg"
+    },
+    {
+      "country": "Burundi",
+      "flagUrl": "https://flagcdn.com/bi.svg"
+    },
+    {
+      "country": "Cabo Verde",
+      "flagUrl": "https://flagcdn.com/cv.svg"
+    },
+    {
+      "country": "Cameroon",
+      "flagUrl": "https://flagcdn.com/cm.svg"
+    },
+    {
+      "country": "Central African Republic",
+      "flagUrl": "https://flagcdn.com/cf.svg"
+    },
+    {
+      "country": "Chad",
+      "flagUrl": "https://flagcdn.com/td.svg"
+    },
+    {
+      "country": "Comoros",
+      "flagUrl": "https://flagcdn.com/km.svg"
+    },
+    {
+      "country": "Congo",
+      "flagUrl": "https://flagcdn.com/cg.svg"
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "flagUrl": "https://flagcdn.com/cd.svg"
+    },
+    {
+      "country": "Djibouti",
+      "flagUrl": "https://flagcdn.com/dj.svg"
+    },
+    {
+      "country": "Egypt",
+      "flagUrl": "https://flagcdn.com/eg.svg"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "flagUrl": "https://flagcdn.com/gq.svg"
+    },
+    {
+      "country": "Eritrea",
+      "flagUrl": "https://flagcdn.com/er.svg"
+    },
+    {
+      "country": "Eswatini",
+      "flagUrl": "https://flagcdn.com/sz.svg"
+    },
+    {
+      "country": "Ethiopia",
+      "flagUrl": "https://flagcdn.com/et.svg"
+    },
+    {
+      "country": "Gabon",
+      "flagUrl": "https://flagcdn.com/ga.svg"
+    },
+    {
+      "country": "Gambia",
+      "flagUrl": "https://flagcdn.com/gm.svg"
+    },
+    {
+      "country": "Ghana",
+      "flagUrl": "https://flagcdn.com/gh.svg"
+    },
+    {
+      "country": "Guinea",
+      "flagUrl": "https://flagcdn.com/gn.svg"
+    },
+    {
+      "country": "Guinea-Bissau",
+      "flagUrl": "https://flagcdn.com/gw.svg"
+    },
+    {
+      "country": "Ivory Coast",
+      "flagUrl": "https://flagcdn.com/ci.svg"
+    },
+    {
+      "country": "Kenya",
+      "flagUrl": "https://flagcdn.com/ke.svg"
+    },
+    {
+      "country": "Lesotho",
+      "flagUrl": "https://flagcdn.com/ls.svg"
+    },
+    {
+      "country": "Liberia",
+      "flagUrl": "https://flagcdn.com/lr.svg"
+    },
+    {
+      "country": "Libya",
+      "flagUrl": "https://flagcdn.com/ly.svg"
+    },
+    {
+      "country": "Madagascar",
+      "flagUrl": "https://flagcdn.com/mg.svg"
+    },
+    {
+      "country": "Malawi",
+      "flagUrl": "https://flagcdn.com/mw.svg"
+    },
+    {
+      "country": "Mali",
+      "flagUrl": "https://flagcdn.com/ml.svg"
+    },
+    {
+      "country": "Mauritania",
+      "flagUrl": "https://flagcdn.com/mr.svg"
+    },
+    {
+      "country": "Mauritius",
+      "flagUrl": "https://flagcdn.com/mu.svg"
+    },
+    {
+      "country": "Morocco",
+      "flagUrl": "https://flagcdn.com/ma.svg"
+    },
+    {
+      "country": "Mozambique",
+      "flagUrl": "https://flagcdn.com/mz.svg"
+    },
+    {
+      "country": "Namibia",
+      "flagUrl": "https://flagcdn.com/na.svg"
+    },
+    {
+      "country": "Niger",
+      "flagUrl": "https://flagcdn.com/ne.svg"
+    },
+    {
+      "country": "Rwanda",
+      "flagUrl": "https://flagcdn.com/rw.svg"
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "flagUrl": "https://flagcdn.com/st.svg"
+    },
+    {
+      "country": "Senegal",
+      "flagUrl": "https://flagcdn.com/sn.svg"
+    },
+    {
+      "country": "Seychelles",
+      "flagUrl": "https://flagcdn.com/sc.svg"
+    },
+    {
+      "country": "Sierra Leone",
+      "flagUrl": "https://flagcdn.com/sl.svg"
+    },
+    {
+      "country": "Somalia",
+      "flagUrl": "https://flagcdn.com/so.svg"
+    },
+    {
+      "country": "South Sudan",
+      "flagUrl": "https://flagcdn.com/ss.svg"
+    },
+    {
+      "country": "Sudan",
+      "flagUrl": "https://flagcdn.com/sd.svg"
+    },
+    {
+      "country": "Tanzania",
+      "flagUrl": "https://flagcdn.com/tz.svg"
+    },
+    {
+      "country": "Togo",
+      "flagUrl": "https://flagcdn.com/tg.svg"
+    },
+    {
+      "country": "Tunisia",
+      "flagUrl": "https://flagcdn.com/tn.svg"
+    },
+    {
+      "country": "Uganda",
+      "flagUrl": "https://flagcdn.com/ug.svg"
+    },
+    {
+      "country": "Zambia",
+      "flagUrl": "https://flagcdn.com/zm.svg"
+    },
+    {
+      "country": "Zimbabwe",
+      "flagUrl": "https://flagcdn.com/zw.svg"
+    }
+  ]
+}
