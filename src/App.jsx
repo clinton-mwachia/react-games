@@ -27,12 +27,12 @@ const Loading = () => {
   return <p>loading..</p>;
 };
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Suspense fallback={<Loading />}>
         <Routes>
-          <Route exact path="/" element={<Home />} />;
+          <Route exact path="/" element={<Home />} />
           <Route path="/color-matching" element={<ColorMatching />} />
           <Route path="/snake-game" element={<Snake />} />
           <Route path="/match-number" element={<GuessNumber />} />
@@ -41,11 +41,11 @@ function App() {
           <Route path="/match-president" element={<MatchPresident />} />
           <Route path="/match-country-flags" element={<MatchCountryFlags />} />
           <Route path="/match-counties" element={<MatchCounties />} />
-          <Route path={"*"} element={<NotFound />} />;
+          <Route path={"*"} element={<NotFound />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
