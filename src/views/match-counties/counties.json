@@ -1,0 +1,8 @@
+{
+  "counties": [
+    { "county": "Mombasa", "number": "001" },
+    { "county": "Taita Taveta", "number": "006" },
+    { "county": "Kilifi", "number": "002" },
+    { "county": "Nairobi", "number": "046" }
+  ]
+}
