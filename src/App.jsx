@@ -35,9 +35,9 @@ function App() {
           <Route exact path="/" element={<Home />} />;
           <Route path="/color-matching" element={<ColorMatching />} />
           <Route path="/snake-game" element={<Snake />} />
-          <Route path="/guess-number" element={<GuessNumber />} />
-          <Route path="/guess-capital-city" element={<GuessCapitalCity />} />
-          <Route path="/guess-animal" element={<GuessAnimal />} />
+          <Route path="/match-number" element={<GuessNumber />} />
+          <Route path="/match-capital-city" element={<GuessCapitalCity />} />
+          <Route path="/match-animal" element={<GuessAnimal />} />
           <Route path="/match-president" element={<MatchPresident />} />
           <Route path="/match-country-flags" element={<MatchCountryFlags />} />
           <Route path="/match-counties" element={<MatchCounties />} />

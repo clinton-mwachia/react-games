@@ -8,10 +8,10 @@ const Home = () => {
   }, []);
   const games = [
     { to: "/color-matching", name: "color-matching" },
-    { to: "/snake-game", name: "snake-game" },
+    /*{ to: "/snake-game", name: "snake-game" },*/
     { to: "/guess-number", name: "guess-number" },
-    { to: "/guess-capital-city", name: "guess-capital" },
-    { to: "/guess-animal", name: "guess-animal" },
+    { to: "/match-capital-city", name: "match-capital" },
+    { to: "/match-animal", name: "match-animal" },
     { to: "/match-president", name: "match-president" },
     { to: "/match-country-flags", name: "match-country-flag" },
     { to: "/match-counties", name: "match-counties" },
