@@ -136,7 +136,7 @@ const MatchPresident = () => {
       )}
       <Box position="relative" padding="7">
         <Divider />
-        <AbsoluteCenter bg="white" px="4">
+        <AbsoluteCenter px="4">
           <Text fontWeight={"bold"}> Share Results</Text>
         </AbsoluteCenter>
       </Box>
