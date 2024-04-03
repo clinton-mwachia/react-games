@@ -100,12 +100,12 @@ const MatchCounties = () => {
       <Text fontSize={"lg"}>Match County with Number</Text>
       {!gameOver ? (
         <Box>
-          <Heading as="h2" size="md" mb={4}>
+          <Heading as="h2" size="md">
             <Box color={"blue.300"} as="i">
               {counties[questionIndex].number}
             </Box>{" "}
           </Heading>
-          <Text fontSize="xl" mt={4}>
+          <Text fontSize="xl">
             Score: {score}/{counties.length}
           </Text>
           {showHint && (
