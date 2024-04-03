@@ -66,7 +66,7 @@ const MatchCountryFlags = () => {
           onClick={() => handleAnswer(countries[i])}
           whiteSpace="normal"
           overflowWrap="break-word"
-          wordWrap="break-word"
+          wordwrap="break-word"
           textAlign="center"
         >
           {countries[i]}
