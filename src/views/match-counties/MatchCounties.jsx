@@ -1,7 +1,17 @@
 import { useState } from "react";
-import { Container, Text, Box, Button, Heading, Grid } from "@chakra-ui/react";
+import {
+  Container,
+  Text,
+  Box,
+  Button,
+  Heading,
+  Grid,
+  Divider,
+  AbsoluteCenter,
+} from "@chakra-ui/react";
 import countiesData from "./counties.json";
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 
 const MatchCounties = () => {
   const { counties } = countiesData;
@@ -63,6 +73,17 @@ const MatchCounties = () => {
     return options;
   };
 
+  const handleWhatsappShareButton = () => {
+    const game = "http://localhost:5173/match-president";
+    const message = `
+    Hellow Friend! I've been playing this awesome game called Match County, and
+    I just scored ${score}/${counties.length} points! Think you can beat me? Give 
+    it a try and let's see who comes out on top! Play here: ${game}
+    `;
+    const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;
+    window.open(whatsappLink);
+  };
+
   return (
     <Container
       justifyContent={"center"}
@@ -76,7 +97,7 @@ const MatchCounties = () => {
       <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
         GAMING HUB
       </Heading>
-      <Text fontSize={"lg"}>Match President with Country</Text>
+      <Text fontSize={"lg"}>Match County with Number</Text>
       {!gameOver ? (
         <Box>
           <Heading as="h2" size="md" mb={4}>
@@ -110,7 +131,17 @@ const MatchCounties = () => {
           </Button>
         </Box>
       )}
-
+      <Box position="relative" padding="7">
+        <Divider />
+        <AbsoluteCenter px="4">
+          <Text fontWeight={"bold"}> Share Results</Text>
+        </AbsoluteCenter>
+      </Box>
+      <Box>
+        <Button onClick={handleWhatsappShareButton}>
+          <FaWhatsapp />
+        </Button>
+      </Box>
       <Box mt={"5"}>
         <Link to={"/"}>Back Home</Link>
       </Box>

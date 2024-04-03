@@ -10,7 +10,6 @@ import {
   AbsoluteCenter,
 } from "@chakra-ui/react";
 import presidentsData from "./presidents.json";
-import { IconButton } from "@chakra-ui/react";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -141,11 +140,9 @@ const MatchPresident = () => {
         </AbsoluteCenter>
       </Box>
       <Box>
-        <IconButton
-          as={FaWhatsapp}
-          marginLeft={4}
-          onClick={handleWhatsappShareButton}
-        />
+        <Button onClick={handleWhatsappShareButton}>
+          <FaWhatsapp />
+        </Button>
       </Box>
       <Box mt={"5"}>
         <Link to={"/"}>Back Home</Link>

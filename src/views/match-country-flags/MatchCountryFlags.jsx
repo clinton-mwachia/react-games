@@ -7,7 +7,6 @@ import {
   Heading,
   Image,
   AbsoluteCenter,
-  IconButton,
   Divider,
   Grid,
   Center,
@@ -144,11 +143,9 @@ const MatchCountryFlags = () => {
         </AbsoluteCenter>
       </Box>
       <Box>
-        <IconButton
-          as={FaWhatsapp}
-          marginLeft={4}
-          onClick={handleWhatsappShareButton}
-        />
+        <Button onClick={handleWhatsappShareButton}>
+          <FaWhatsapp />
+        </Button>
       </Box>
       <Box mt={"5"}>
         <Link to={"/"}>Back Home</Link>
