@@ -14,6 +14,7 @@ const Home = () => {
     { to: "/guess-animal", name: "guess-animal" },
     { to: "/match-president", name: "match-president" },
     { to: "/match-country-flags", name: "match-country-flag" },
+    { to: "/match-counties", name: "match-counties" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
