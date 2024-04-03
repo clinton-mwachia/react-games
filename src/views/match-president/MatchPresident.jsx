@@ -64,7 +64,7 @@ const MatchPresident = () => {
           onClick={() => handleAnswer(names[i])}
           whiteSpace="normal"
           overflowWrap="break-word"
-          wordWrap="break-word"
+          wordwrap="break-word"
           textAlign="center"
         >
           {names[i]}
