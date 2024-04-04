@@ -44,7 +44,7 @@ const GuessAnimal = () => {
       justifyContent={"center"}
       textAlign={"center"}
       alignItems={"center"}
-      p={10}
+      p={2}
       border={"2px"}
       borderRadius={"10px"}
       marginTop={"10"}
@@ -54,7 +54,7 @@ const GuessAnimal = () => {
       </Heading>
       <Heading> Guess Animal</Heading>
       {!gameOver ? (
-        <VStack spacing={4}>
+        <VStack spacing={2}>
           <Text fontSize="xl">{questions[currentQuestionIndex].question}</Text>
           <Grid templateColumns="repeat(2, 1fr)" gap={4}>
             {questions[currentQuestionIndex].options.map((option) => (
@@ -63,7 +63,12 @@ const GuessAnimal = () => {
                   onClick={() => handleAnswer(option)}
                   colorScheme="blue"
                   variant="outline"
-                  w="full"
+                  size="sm"
+                  w={{ base: "full", md: "auto" }}
+                  whiteSpace="normal"
+                  overflowWrap="break-word"
+                  wordwrap="break-word"
+                  textAlign="center"
                 >
                   {option}
                 </Button>
