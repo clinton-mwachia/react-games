@@ -38,7 +38,7 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/color-matching" element={<ColorMatching />} />
           <Route path="/snake-game" element={<Snake />} />
-          <Route path="/match-number" element={<GuessNumber />} />
+          <Route path="/guess-number" element={<GuessNumber />} />
           <Route path="/match-capital-city" element={<GuessCapitalCity />} />
           <Route path="/match-animal" element={<GuessAnimal />} />
           <Route path="/match-president" element={<MatchPresident />} />
