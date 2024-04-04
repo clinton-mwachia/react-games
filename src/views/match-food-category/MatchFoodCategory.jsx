@@ -40,23 +40,12 @@ const MatchFoodCategory = () => {
     setGameOver(false);
   };
 
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
-
-  // Shuffle the original list of food items
-  const shuffledFoods = shuffleArray(foods);
-
   const renderOptions = () => {
     const options = [];
-    const names = [shuffledFoods[questionIndex].category];
+    const names = [foods[questionIndex].category];
     while (names.length < 4) {
-      const randomIndex = Math.floor(Math.random() * shuffledFoods.length);
-      const randomName = shuffledFoods[randomIndex].category;
+      const randomIndex = Math.floor(Math.random() * foods.length);
+      const randomName = foods[randomIndex].category;
       if (!names.includes(randomName)) {
         names.push(randomName);
       }
@@ -121,7 +110,7 @@ const MatchFoodCategory = () => {
           </Text>
           {showHint && (
             <Text fontSize="lg" mb={4}>
-              <Box as="i">Hint: The county size is: </Box>
+              <Box as="i">Hint: The category starts with: </Box>
               {foods[questionIndex].category.charAt(0)}
             </Text>
           )}
