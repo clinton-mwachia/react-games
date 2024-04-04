@@ -3,27 +3,63 @@
     {
       "county": "Mombasa",
       "number": "001",
-      "flag": "./flags/Bomet_County.png"
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Mombasa.png"
     },
-    { "county": "Kwale", "number": "002", "flag": "8,270.3 km2" },
-    { "county": "Kilifi", "number": "003", "flag": "12,245.9 km2" },
-    { "county": "Tana River", "number": "004", "flag": "35,375.8 km2" },
+    {
+      "county": "Kwale",
+      "number": "002",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kwale_County_Flag.svg"
+    },
+    {
+      "county": "Kilifi",
+      "number": "003",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Kilifi_County.png"
+    },
+    {
+      "county": "Tana River",
+      "number": "004",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Tana_River_County.gif"
+    },
     { "county": "Lamu", "number": "005", "flag": "6,497.7 km2" },
     { "county": "Taita Taveta", "number": "006", "flag": "17,083.9 km2" },
-    { "county": "Garissa", "number": "007", "flag": "45,720.2 km2" },
+    {
+      "county": "Garissa",
+      "number": "007",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/95/Flag_of_Garissa_County.gif"
+    },
     { "county": "Wajir", "number": "008", "flag": "55,840.6 km2" },
     { "county": "Mandera", "number": "009", "flag": "25,797.7 km2" },
     { "county": "Marsabit", "number": "010", "flag": "66,923.1 km2" },
-    { "county": "Isiolo", "number": "011", "flag": "25,336.1 km2" },
+    {
+      "county": "Isiolo",
+      "number": "011",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Isiolo_County.gif"
+    },
     { "county": "Meru", "number": "012", "flag": "7,003.1 km2" },
     { "county": "Tharaka Nithi", "number": "013", "flag": "2,609.5 km2" },
-    { "county": "Embu", "number": "014", "flag": "2,555.9 km2" },
-    { "county": "Kitui", "number": "015", "flag": "24,385.1 km2" },
-    { "county": "Machakos", "number": "016", "flag": "5,952.9 km2" },
+    {
+      "county": "Embu",
+      "number": "014",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/37/Flag_of_Embu_County.gif"
+    },
+    {
+      "county": "Kitui",
+      "number": "015",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Kitui_County.gif"
+    },
+    {
+      "county": "Machakos",
+      "number": "016",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Machakos_County.png"
+    },
     { "county": "Makueni", "number": "017", "flag": "8,008.9 km2" },
     { "county": "Nyandarua", "number": "018", "flag": "3,107.7 km2" },
     { "county": "Nyeri", "number": "019", "flag": "2,361.0 km2" },
-    { "county": "Kirinyaga", "number": "020", "flag": "1,205.4 km2" },
+    {
+      "county": "Kirinyaga",
+      "number": "020",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Kirinyaga_County.gif"
+    },
     { "county": "Murang'a", "number": "021", "flag": "2,325.8 km2" },
     { "county": "Kiambu", "number": "022", "flag": "2,449.2 km2" },
     { "county": "Turkana", "number": "023", "flag": "98,597.8 km2" },
@@ -33,22 +69,66 @@
     { "county": "Uasin Gishu", "number": "027", "flag": "2,955.3 km2" },
     { "county": "Elgeyo Marakwet", "number": "028", "flag": "3,049.7 km2" },
     { "county": "Nandi", "number": "029", "flag": "2,884.5 km2" },
-    { "county": "Baringo", "number": "030", "flag": "11,075.3 km2" },
-    { "county": "Laikipia", "number": "031", "flag": "8,696.1 km2" },
+    {
+      "county": "Baringo",
+      "number": "030",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Baringo_County.png"
+    },
+    {
+      "county": "Laikipia",
+      "number": "031",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Laikipia_County.gif"
+    },
     { "county": "Nakuru", "number": "032", "flag": "7,509.5 km2" },
     { "county": "Narok", "number": "033", "flag": "17,921.2 km2" },
-    { "county": "Kajiado", "number": "034", "flag": "21,292.7 km2" },
-    { "county": "Kericho", "number": "035", "flag": "2,454.5 km2" },
-    { "county": "Bomet", "number": "036", "flag": "1,997.9 km2" },
-    { "county": "Kakamega", "number": "037", "flag": "3,033.8 km2" },
+    {
+      "county": "Kajiado",
+      "number": "034",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Kajiado_County.gif"
+    },
+    {
+      "county": "Kericho",
+      "number": "035",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flag_of_Kericho_County.gif"
+    },
+    {
+      "county": "Bomet",
+      "number": "036",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Flag_of_Bomet_County.png"
+    },
+    {
+      "county": "Kakamega",
+      "number": "037",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Kakamega_County.gif"
+    },
     { "county": "Vihiga", "number": "038", "flag": "531.3 km2" },
-    { "county": "Bungoma", "number": "039", "flag": "2,206.9 km2" },
-    { "county": "Busia", "number": "040", "flag": "1,628.4 km2" },
+    {
+      "county": "Bungoma",
+      "number": "039",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Bungoma_County.gif"
+    },
+    {
+      "county": "Busia",
+      "number": "040",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Busia_County.svg"
+    },
     { "county": "Siaya", "number": "041", "flag": "2,496.1 km2" },
-    { "county": "Kisumu", "number": "042", "flag": "2,009.5 km2" },
-    { "county": "Homa Bay", "number": "043", "flag": "3,154.7 km2" },
+    {
+      "county": "Kisumu",
+      "number": "042",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Kisumu_County.png"
+    },
+    {
+      "county": "Homa Bay",
+      "number": "043",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Homa_Bay_County.png"
+    },
     { "county": "Migori", "number": "044", "flag": "2,586.4 km2" },
-    { "county": "Kisii", "number": "045", "flag": "1,317.9 km2" },
+    {
+      "county": "Kisii",
+      "number": "045",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/58/Flag_of_Kisii_County.gif"
+    },
     { "county": "Nyamira", "number": "046", "flag": "912.5 km2" },
     { "county": "Nairobi", "number": "047", "flag": "694.9 km2" }
   ]
