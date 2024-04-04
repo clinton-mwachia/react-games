@@ -22,6 +22,9 @@ const MatchCountryFlags = lazy(() =>
 const MatchCounties = lazy(() =>
   import("./views/match-counties/MatchCounties")
 );
+const MatchCountyFlags = lazy(() =>
+  import("./views/match-county-flags/MatchCountyFlags")
+);
 
 const Loading = () => {
   return <p>loading..</p>;
@@ -41,6 +44,7 @@ const App = () => {
           <Route path="/match-president" element={<MatchPresident />} />
           <Route path="/match-country-flags" element={<MatchCountryFlags />} />
           <Route path="/match-counties" element={<MatchCounties />} />
+          <Route path="/match-county-flag" element={<MatchCountyFlags />} />
           <Route path={"*"} element={<NotFound />} />
         </Routes>
       </Suspense>
