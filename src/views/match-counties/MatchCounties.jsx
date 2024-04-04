@@ -97,7 +97,7 @@ const MatchCounties = () => {
       <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
         GAMING HUB
       </Heading>
-      <Text fontSize={"lg"}>Match County with Number</Text>
+      <Text fontSize={"lg"}>Match Number with County</Text>
       {!gameOver ? (
         <Box>
           <Heading as="h2" size="md">
@@ -110,8 +110,8 @@ const MatchCounties = () => {
           </Text>
           {showHint && (
             <Text fontSize="lg" mb={4}>
-              <Box as="i">Hint: The county starts with letter: </Box>
-              {counties[questionIndex].county.charAt(0)}
+              <Box as="i">Hint: The county size is: </Box>
+              {counties[questionIndex].size}
             </Text>
           )}
           <Button onClick={() => setShowHint(!showHint)} mb={4}>
