@@ -85,7 +85,6 @@ const MatchCountyFlags = () => {
     const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink);
   };
-  console.log(flags);
 
   return (
     <Container
@@ -105,9 +104,9 @@ const MatchCountyFlags = () => {
         <Box>
           <Center>
             <Image
-              src={"./flags/BaringoCounty.png"}
+              src={flags[questionIndex].flag}
               alt={flags[questionIndex].county}
-              width={100}
+              width={150}
               height={100}
             />
           </Center>
