@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Center } from "@chakra-ui/react";
+import { Watch } from "react-loader-spinner";
 import { lazy, Suspense } from "react";
 
 /** lazy loading the game components */
@@ -30,7 +32,20 @@ const MatchFoodCategory = lazy(() =>
 );
 
 const Loading = () => {
-  return <p>loading..</p>;
+  return (
+    <Center h={"100vh"}>
+      <Watch
+        visible={true}
+        height="100"
+        width="100"
+        radius="40"
+        color="#4fa94d"
+        ariaLabel="watch-loading"
+        wrapperStyle={{}}
+        wrapperClass=""
+      />
+    </Center>
+  );
 };
 
 const App = () => {
