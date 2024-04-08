@@ -30,6 +30,9 @@ const MatchCountyFlags = lazy(() =>
 const MatchFoodCategory = lazy(() =>
   import("./views/match-food-category/MatchFoodCategory")
 );
+const MatchCurrency = lazy(() =>
+  import("./views/match-currencies/MatchCurrencies")
+);
 
 const Loading = () => {
   return (
@@ -64,6 +67,7 @@ const App = () => {
           <Route path="/match-counties" element={<MatchCounties />} />
           <Route path="/match-county-flag" element={<MatchCountyFlags />} />
           <Route path="/match-food-category" element={<MatchFoodCategory />} />
+          <Route path="/match-currency" element={<MatchCurrency />} />
           <Route path={"*"} element={<NotFound />} />
         </Routes>
       </Suspense>
