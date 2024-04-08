@@ -5,7 +5,6 @@ import {
   Button,
   VStack,
   Grid,
-  GridItem,
   Box,
   Heading,
 } from "@chakra-ui/react";
@@ -54,12 +53,13 @@ const GuessAnimal = () => {
       </Heading>
       <Heading> Guess Animal</Heading>
       {!gameOver ? (
-        <VStack spacing={2}>
+        <Box>
           <Text fontSize="xl">{questions[currentQuestionIndex].question}</Text>
           <Grid templateColumns="repeat(2, 1fr)" gap={4}>
             {questions[currentQuestionIndex].options.map((option) => (
-              <GridItem key={option}>
+              <>
                 <Button
+                  key={option}
                   onClick={() => handleAnswer(option)}
                   colorScheme="blue"
                   variant="outline"
@@ -72,7 +72,7 @@ const GuessAnimal = () => {
                 >
                   {option}
                 </Button>
-              </GridItem>
+              </>
             ))}
           </Grid>
           <Text fontSize="xl" mt={4}>
@@ -86,7 +86,7 @@ const GuessAnimal = () => {
           <Button colorScheme="blue" onClick={() => setShowHint(!showHint)}>
             {showHint ? "Hide Hint" : "Show Hint"}
           </Button>
-        </VStack>
+        </Box>
       ) : (
         <VStack spacing={4}>
           <Text fontSize="xl">

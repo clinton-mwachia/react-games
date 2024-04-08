@@ -67,9 +67,9 @@ const Riddles = () => {
         Riddle Riddle!!!
       </Text>
       {!gameOver ? (
-        <VStack spacing={2}>
+        <Box>
           <Text>{riddles[currentQuestionIndex].question}</Text>
-          <Grid templateColumns="repeat(2, 1fr)" gap={4}>
+          <Grid templateColumns="repeat(2, 1fr)" gap={4} mt={2}>
             {riddles[currentQuestionIndex].options
               .sort(() => Math.random() - 0.5)
               .map((option) => (
@@ -92,7 +92,7 @@ const Riddles = () => {
           <Text fontSize="xl" mt={4}>
             Score: {score}/{riddles.length}
           </Text>
-        </VStack>
+        </Box>
       ) : (
         <VStack spacing={4}>
           <Text fontSize="xl">
