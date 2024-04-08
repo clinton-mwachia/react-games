@@ -1,0 +1,349 @@
+{
+  "riddles": [
+    {
+      "question": "What has a neck but no head?",
+      "options": ["A bottle", "A snake", "A pencil", "A coin"],
+      "correctAnswer": "A bottle"
+    },
+    {
+      "question": "What has to be broken before you can use it?",
+      "options": ["An egg", "A stick", "A mirror", "A window"],
+      "correctAnswer": "An egg"
+    },
+    {
+      "question": "What can you catch but not throw?",
+      "options": ["A cold", "A ball", "A cat", "A book"],
+      "correctAnswer": "A cold"
+    },
+    {
+      "question": "What has a face and two hands but no arms or legs?",
+      "options": ["A clock", "A person", "A doll", "A mirror"],
+      "correctAnswer": "A clock"
+    },
+    {
+      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "options": [
+        "The letter 'm'",
+        "The number '2'",
+        "The word 'time'",
+        "The sound of silence"
+      ],
+      "correctAnswer": "The letter 'm'"
+    },
+    {
+      "question": "What has a thumb and four fingers but is not alive?",
+      "options": ["A glove", "A hand", "A mitten", "A puppet"],
+      "correctAnswer": "A glove"
+    },
+    {
+      "question": "What has keys but can't open locks?",
+      "options": ["A piano", "A map", "A door", "A book"],
+      "correctAnswer": "A piano"
+    },
+    {
+      "question": "What can travel around the world while staying in a corner?",
+      "options": ["A stamp", "A plane", "A person", "A ball"],
+      "correctAnswer": "A stamp"
+    },
+    {
+      "question": "What has many keys but can't open a single lock?",
+      "options": ["A keyboard", "A piano", "A lock", "A puzzle"],
+      "correctAnswer": "A keyboard"
+    },
+    {
+      "question": "What runs around the whole yard without moving?",
+      "options": ["A fence", "A tree", "A shadow", "A river"],
+      "correctAnswer": "A fence"
+    },
+    {
+      "question": "What has one eye but can't see?",
+      "options": ["A needle", "A camera", "A potato", "A storm"],
+      "correctAnswer": "A needle"
+    },
+    {
+      "question": "What can you hold in your right hand but never in your left hand?",
+      "options": ["Your left hand", "A mirror", "A secret", "A phone"],
+      "correctAnswer": "A mirror"
+    },
+    {
+      "question": "What is full of holes but still holds water?",
+      "options": ["A sponge", "A bottle", "A net", "A sieve"],
+      "correctAnswer": "A sponge"
+    },
+    {
+      "question": "What has a head, a tail, is brown, and has no legs?",
+      "options": ["A coin", "A snake", "A dog", "A horse"],
+      "correctAnswer": "A coin"
+    },
+    {
+      "question": "What gets wetter as it dries?",
+      "options": ["A towel", "A sponge", "Watermelon", "Soap"],
+      "correctAnswer": "A towel"
+    },
+    {
+      "question": "What comes down but never goes up?",
+      "options": ["Rain", "A ball", "A feather", "A tree"],
+      "correctAnswer": "Rain"
+    },
+    {
+      "question": "What can you break, even if you never pick it up or touch it?",
+      "options": ["A promise", "A mirror", "A table", "A vase"],
+      "correctAnswer": "A promise"
+    },
+    {
+      "question": "What belongs to you but is used more by others?",
+      "options": ["Your name", "Your money", "Your time", "Your house"],
+      "correctAnswer": "Your name"
+    },
+    {
+      "question": "What has keys but can't open locks?",
+      "options": ["A keyboard", "A computer", "A piano", "A calculator"],
+      "correctAnswer": "A piano"
+    },
+    {
+      "question": "What can you keep after giving it to someone?",
+      "options": ["A cold", "A promise", "A secret", "A hug"],
+      "correctAnswer": "A promise"
+    },
+    {
+      "question": "What has a face and two hands but no arms or legs?",
+      "options": ["A clock", "A person", "A doll", "A mirror"],
+      "correctAnswer": "A clock"
+    },
+    {
+      "question": "What is always in front of you but can't be seen?",
+      "options": ["The future", "The past", "The air", "The wind"],
+      "correctAnswer": "The future"
+    },
+    {
+      "question": "What gets bigger the more you take away?",
+      "options": ["A hole", "A box", "A pillow", "A cake"],
+      "correctAnswer": "A hole"
+    },
+    {
+      "question": "What has a head, a tail, is brown, and has no legs?",
+      "options": ["A penny", "A snake", "A book", "A coin"],
+      "correctAnswer": "A penny"
+    },
+    {
+      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "options": [
+        "The letter 'm'",
+        "The number '2'",
+        "The word 'time'",
+        "The sound of silence"
+      ],
+      "correctAnswer": "The letter 'm'"
+    },
+    {
+      "question": "What is so fragile that saying its name breaks it?",
+      "options": ["Silence", "Glass", "A mirror", "A promise"],
+      "correctAnswer": "Silence"
+    },
+    {
+      "question": "What has a head and a tail but no body?",
+      "options": ["A coin", "A snake", "A fish", "A person"],
+      "correctAnswer": "A coin"
+    },
+    {
+      "question": "What can you catch but not throw?",
+      "options": ["A cold", "A ball", "A cat", "A book"],
+      "correctAnswer": "A cold"
+    },
+    {
+      "question": "What comes down but never goes up?",
+      "options": ["Rain", "A ball", "A feather", "A tree"],
+      "correctAnswer": "Rain"
+    },
+    {
+      "question": "What can you break, even if you never pick it up or touch it?",
+      "options": ["A promise", "A mirror", "A table", "A vase"],
+      "correctAnswer": "A promise"
+    },
+    {
+      "question": "What belongs to you but is used more by others?",
+      "options": ["Your name", "Your money", "Your time", "Your house"],
+      "correctAnswer": "Your name"
+    },
+    {
+      "question": "What has a head and a tail but no body?",
+      "options": ["A coin", "A snake", "A fish", "A person"],
+      "correctAnswer": "A coin"
+    },
+    {
+      "question": "What has a neck but no head?",
+      "options": ["A bottle", "A snake", "A pencil", "A coin"],
+      "correctAnswer": "A bottle"
+    },
+    {
+      "question": "What can you hold in your right hand but never in your left hand?",
+      "options": ["Your left hand", "A mirror", "A secret", "A phone"],
+      "correctAnswer": "A mirror"
+    },
+    {
+      "question": "What has to be broken before you can use it?",
+      "options": ["An egg", "A stick", "A mirror", "A window"],
+      "correctAnswer": "An egg"
+    },
+    {
+      "question": "What has keys but can't open locks?",
+      "options": ["A piano", "A map", "A door", "A book"],
+      "correctAnswer": "A piano"
+    },
+    {
+      "question": "What can you keep after giving it to someone?",
+      "options": ["A cold", "A promise", "A secret", "A hug"],
+      "correctAnswer": "A promise"
+    },
+    {
+      "question": "What gets bigger the more you take away?",
+      "options": ["A hole", "A box", "A pillow", "A cake"],
+      "correctAnswer": "A hole"
+    },
+    {
+      "question": "What has a face and two hands but no arms or legs?",
+      "options": ["A clock", "A person", "A doll", "A mirror"],
+      "correctAnswer": "A clock"
+    },
+    {
+      "question": "What is always in front of you but can't be seen?",
+      "options": ["The future", "The past", "The air", "The wind"],
+      "correctAnswer": "The future"
+    },
+    {
+      "question": "What has a head, a tail, is brown, and has no legs?",
+      "options": ["A penny", "A snake", "A book", "A coin"],
+      "correctAnswer": "A penny"
+    },
+    {
+      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "options": [
+        "The letter 'm'",
+        "The number '2'",
+        "The word 'time'",
+        "The sound of silence"
+      ],
+      "correctAnswer": "The letter 'm'"
+    },
+    {
+      "question": "What is so fragile that saying its name breaks it?",
+      "options": ["Silence", "Glass", "A mirror", "A promise"],
+      "correctAnswer": "Silence"
+    },
+    {
+      "question": "What has a head and a tail but no body?",
+      "options": ["A coin", "A snake", "A fish", "A person"],
+      "correctAnswer": "A coin"
+    },
+    {
+      "question": "What can you catch but not throw?",
+      "options": ["A cold", "A ball", "A cat", "A book"],
+      "correctAnswer": "A cold"
+    },
+    {
+      "question": "What comes down but never goes up?",
+      "options": ["Rain", "A ball", "A feather", "A tree"],
+      "correctAnswer": "Rain"
+    },
+    {
+      "question": "What can you break, even if you never pick it up or touch it?",
+      "options": ["A promise", "A mirror", "A table", "A vase"],
+      "correctAnswer": "A promise"
+    },
+    {
+      "question": "What belongs to you but is used more by others?",
+      "options": ["Your name", "Your money", "Your time", "Your house"],
+      "correctAnswer": "Your name"
+    },
+    {
+      "question": "What has a head and a tail but no body?",
+      "options": ["A coin", "A snake", "A fish", "A person"],
+      "correctAnswer": "A coin"
+    },
+    {
+      "question": "What has a neck but no head?",
+      "options": ["A bottle", "A snake", "A pencil", "A coin"],
+      "correctAnswer": "A bottle"
+    },
+    {
+      "question": "What can you hold in your right hand but never in your left hand?",
+      "options": ["Your left hand", "A mirror", "A secret", "A phone"],
+      "correctAnswer": "A mirror"
+    },
+    {
+      "question": "What has to be broken before you can use it?",
+      "options": ["An egg", "A stick", "A mirror", "A window"],
+      "correctAnswer": "An egg"
+    },
+    {
+      "question": "What has keys but can't open locks?",
+      "options": ["A piano", "A map", "A door", "A book"],
+      "correctAnswer": "A piano"
+    },
+    {
+      "question": "What can you keep after giving it to someone?",
+      "options": ["A cold", "A promise", "A secret", "A hug"],
+      "correctAnswer": "A promise"
+    },
+    {
+      "question": "What gets bigger the more you take away?",
+      "options": ["A hole", "A box", "A pillow", "A cake"],
+      "correctAnswer": "A hole"
+    },
+    {
+      "question": "What has a face and two hands but no arms or legs?",
+      "options": ["A clock", "A person", "A doll", "A mirror"],
+      "correctAnswer": "A clock"
+    },
+    {
+      "question": "What is always in front of you but can't be seen?",
+      "options": ["The future", "The past", "The air", "The wind"],
+      "correctAnswer": "The future"
+    },
+    {
+      "question": "What has a head, a tail, is brown, and has no legs?",
+      "options": ["A penny", "A snake", "A book", "A coin"],
+      "correctAnswer": "A penny"
+    },
+    {
+      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "options": [
+        "The letter 'm'",
+        "The number '2'",
+        "The word 'time'",
+        "The sound of silence"
+      ],
+      "correctAnswer": "The letter 'm'"
+    },
+    {
+      "question": "What is so fragile that saying its name breaks it?",
+      "options": ["Silence", "Glass", "A mirror", "A promise"],
+      "correctAnswer": "Silence"
+    },
+    {
+      "question": "What has a head and a tail but no body?",
+      "options": ["A coin", "A snake", "A fish", "A person"],
+      "correctAnswer": "A coin"
+    },
+    {
+      "question": "What can you catch but not throw?",
+      "options": ["A cold", "A ball", "A cat", "A book"],
+      "correctAnswer": "A cold"
+    },
+    {
+      "question": "What comes down but never goes up?",
+      "options": ["Rain", "A ball", "A feather", "A tree"],
+      "correctAnswer": "Rain"
+    },
+    {
+      "question": "What can you break, even if you never pick it up or touch it?",
+      "options": ["A promise", "A mirror", "A table", "A vase"],
+      "correctAnswer": "A promise"
+    },
+    {
+      "question": "What belongs to you but is used more by others?",
+      "options": ["Your name", "Your money", "Your time", "Your house"],
+      "correctAnswer": "Your name"
+    }
+  ]
+}
