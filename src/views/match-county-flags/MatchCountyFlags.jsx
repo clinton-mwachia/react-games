@@ -99,7 +99,7 @@ const MatchCountyFlags = () => {
       <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
         GAMING HUB
       </Heading>
-      <Text fontSize={"lg"}>Match Flag with Country</Text>
+      <Text fontSize={"lg"}>Match Flag with County</Text>
       {!gameOver ? (
         <Box>
           <Center>

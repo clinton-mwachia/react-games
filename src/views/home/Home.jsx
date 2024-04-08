@@ -27,11 +27,11 @@ const Home = () => {
         </Heading>
       </Box>
       {/* Hero Section */}
-      <Container maxW="container.xl" py={20}>
-        <Heading as="h2" size="xl" mb={3}>
+      <Container maxW="container.xl" py={10}>
+        <Heading as="h2" size="xl" mb={5}>
           Play Your Favorite Games As you Learn
         </Heading>
-        <Text fontSize="lg" mb={8}>
+        <Text fontSize="lg">
           Your ultimate destination for endless online learning.
         </Text>
       </Container>
