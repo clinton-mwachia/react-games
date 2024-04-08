@@ -1,0 +1,222 @@
+{
+  "currencies": [
+    { "country": "Algeria", "currency": "Dinar", "code": "DZD" },
+    { "country": "Angola", "currency": "Kwanza", "code": "AOA" },
+    {
+      "country": "Benin",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    { "country": "Botswana", "currency": "Pula", "code": "BWP" },
+    {
+      "country": "Burkina Faso",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    {
+      "country": "Burundi",
+      "currency": "Burundi franc",
+      "code": "BIF"
+    },
+    {
+      "country": "Cabo Verde",
+      "currency": "Cape Verdean escudo",
+      "code": "CVE"
+    },
+    {
+      "country": "Cameroon",
+      "currency": "Central African CFA franc",
+      "code": "XAF"
+    },
+    {
+      "country": "Central African Republic",
+      "currency": "Central African CFA franc",
+      "code": "XAF"
+    },
+    {
+      "country": "Chad",
+      "currency": "Central African CFA franc",
+      "code": "XAF"
+    },
+    {
+      "country": "Comoros",
+      "currency": "Comorian franc",
+      "code": "KMF"
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "currency": "Congolese franc",
+      "code": "CDF"
+    },
+    {
+      "country": "Djibouti",
+      "currency": "Djiboutian franc",
+      "code": "DJF"
+    },
+    {
+      "country": "Egypt",
+      "currency": "Egyptian pound",
+      "code": "EGP"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "currency": "Central African CFA franc",
+      "code": "XAF"
+    },
+    { "country": "Eritrea", "currency": "Nakfa", "code": "ERN" },
+    { "country": "Eswatini", "currency": "Lilangeni", "code": "SZL" },
+    {
+      "country": "Ethiopia",
+      "currency": "Ethiopian birr",
+      "code": "ETB"
+    },
+    {
+      "country": "Gabon",
+      "currency": "Central African CFA franc",
+      "code": "XAF"
+    },
+    { "country": "Gambia", "currency": "Dalasi", "code": "GMD" },
+    { "country": "Ghana", "currency": "Ghanaian cedi", "code": "GHS" },
+    {
+      "country": "Guinea",
+      "currency": "Guinean franc",
+      "code": "GNF"
+    },
+    {
+      "country": "Guinea-Bissau",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    {
+      "country": "Ivory Coast",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    {
+      "country": "Kenya",
+      "currency": "Kenyan shilling",
+      "code": "KES"
+    },
+    { "country": "Lesotho", "currency": "Loti", "code": "LSL" },
+    {
+      "country": "Liberia",
+      "currency": "Liberian dollar",
+      "code": "LRD"
+    },
+    { "country": "Libya", "currency": "Libyan dinar", "code": "LYD" },
+    {
+      "country": "Madagascar",
+      "currency": "Malagasy ariary",
+      "code": "MGA"
+    },
+    {
+      "country": "Malawi",
+      "currency": "Malawian kwacha",
+      "code": "MWK"
+    },
+    {
+      "country": "Mali",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    { "country": "Mauritania", "currency": "Ouguiya", "code": "MRU" },
+    {
+      "country": "Mauritius",
+      "currency": "Mauritian rupee",
+      "code": "MUR"
+    },
+    {
+      "country": "Morocco",
+      "currency": "Moroccan dirham",
+      "code": "MAD"
+    },
+    {
+      "country": "Mozambique",
+      "currency": "Mozambican metical",
+      "code": "MZN"
+    },
+    {
+      "country": "Namibia",
+      "currency": "Namibian dollar",
+      "code": "NAD"
+    },
+    {
+      "country": "Niger",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    { "country": "Nigeria", "currency": "Naira", "code": "NGN" },
+    {
+      "country": "Republic of the Congo",
+      "currency": "Central African CFA franc",
+      "code": "XAF"
+    },
+    {
+      "country": "Rwanda",
+      "currency": "Rwandan franc",
+      "code": "RWF"
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "currency": "Dobra",
+      "code": "STN"
+    },
+    {
+      "country": "Senegal",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    {
+      "country": "Seychelles",
+      "currency": "Seychellois rupee",
+      "code": "SCR"
+    },
+    { "country": "Sierra Leone", "currency": "Leone", "code": "SLL" },
+    {
+      "country": "Somalia",
+      "currency": "Somali shilling",
+      "code": "SOS"
+    },
+    { "country": "South Africa", "currency": "Rand", "code": "ZAR" },
+    {
+      "country": "South Sudan",
+      "currency": "South Sudanese pound",
+      "code": "SSP"
+    },
+    {
+      "country": "Sudan",
+      "currency": "Sudanese pound",
+      "code": "SDG"
+    },
+    {
+      "country": "Tanzania",
+      "currency": "Tanzanian shilling",
+      "code": "TZS"
+    },
+    {
+      "country": "Togo",
+      "currency": "West African CFA franc",
+      "code": "XOF"
+    },
+    {
+      "country": "Tunisia",
+      "currency": "Tunisian dinar",
+      "code": "TND"
+    },
+    {
+      "country": "Uganda",
+      "currency": "Ugandan shilling",
+      "code": "UGX"
+    },
+    {
+      "country": "Zambia",
+      "currency": "Zambian kwacha",
+      "code": "ZMW"
+    },
+    {
+      "country": "Zimbabwe",
+      "currency": "Zimbabwean dollar",
+      "code": "ZWL"
+    }
+  ]
+}
