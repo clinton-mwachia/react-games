@@ -102,7 +102,10 @@ const MatchCurrencies = () => {
       {!gameOver ? (
         <Box>
           <Center>
-            <Text>{currencies[questionIndex].code}</Text>
+            <Text>
+              The currency <b>{currencies[questionIndex].code}</b> belongs to
+              which country?
+            </Text>
           </Center>
           <Text fontSize="xl" mt={4}>
             Score: {score}/{currencies.length}
