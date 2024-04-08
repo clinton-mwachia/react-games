@@ -17,6 +17,7 @@ const Home = () => {
     { to: "/match-counties", name: "match-counties" },
     { to: "/match-county-flag", name: "match-county-flag" },
     { to: "/match-food-category", name: "match-food-category" },
+    { to: "/match-currency", name: "match-currency" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
