@@ -1,0 +1,512 @@
+{
+  "animals": [
+    {
+      "name": "Elephant",
+      "young": "Calf"
+    },
+    {
+      "name": "Giraffe",
+      "young": "Calf"
+    },
+    {
+      "name": "Lion",
+      "young": "Cub"
+    },
+    {
+      "name": "Tiger",
+      "young": "Cub"
+    },
+    {
+      "name": "Kangaroo",
+      "young": "Joey"
+    },
+    {
+      "name": "Koala",
+      "young": "Joey"
+    },
+    {
+      "name": "Zebra",
+      "young": "Foal"
+    },
+    {
+      "name": "Horse",
+      "young": "Foal"
+    },
+    {
+      "name": "Cow",
+      "young": "Calf"
+    },
+    {
+      "name": "Dog",
+      "young": "Puppy"
+    },
+    {
+      "name": "Cat",
+      "young": "Kitten"
+    },
+    {
+      "name": "Fox",
+      "young": "Pup"
+    },
+    {
+      "name": "Wolf",
+      "young": "Pup"
+    },
+    {
+      "name": "Bear",
+      "young": "Cub"
+    },
+    {
+      "name": "Penguin",
+      "young": "Chick"
+    },
+    {
+      "name": "Duck",
+      "young": "Duckling"
+    },
+    {
+      "name": "Goose",
+      "young": "Gosling"
+    },
+    {
+      "name": "Swan",
+      "young": "Cygnets"
+    },
+    {
+      "name": "Chicken",
+      "young": "Chick"
+    },
+    {
+      "name": "Sheep",
+      "young": "Lamb"
+    },
+    {
+      "name": "Goat",
+      "young": "Kid"
+    },
+    {
+      "name": "Pig",
+      "young": "Piglet"
+    },
+    {
+      "name": "Rabbit",
+      "young": "Kit"
+    },
+    {
+      "name": "Hedgehog",
+      "young": "Piglet"
+    },
+    {
+      "name": "Squirrel",
+      "young": "Pup"
+    },
+    {
+      "name": "Gorilla",
+      "young": "Infant"
+    },
+    {
+      "name": "Chimpanzee",
+      "young": "Infant"
+    },
+    {
+      "name": "Raccoon",
+      "young": "Kit"
+    },
+    {
+      "name": "Seal",
+      "young": "Pup"
+    },
+    {
+      "name": "Otter",
+      "young": "Pup"
+    },
+    {
+      "name": "Whale",
+      "young": "Calf"
+    },
+    {
+      "name": "Dolphin",
+      "young": "Calf"
+    },
+    {
+      "name": "Shark",
+      "young": "Pup"
+    },
+    {
+      "name": "Polar Bear",
+      "young": "Cub"
+    },
+    {
+      "name": "Brown Bear",
+      "young": "Cub"
+    },
+    {
+      "name": "Giraffe",
+      "young": "Calf"
+    },
+    {
+      "name": "Deer",
+      "young": "Fawn"
+    },
+    {
+      "name": "Kangaroo",
+      "young": "Joey"
+    },
+    {
+      "name": "Hippopotamus",
+      "young": "Calf"
+    },
+    {
+      "name": "Gazelle",
+      "young": "Calf"
+    },
+    {
+      "name": "Antelope",
+      "young": "Calf"
+    },
+    {
+      "name": "Buffalo",
+      "young": "Calf"
+    },
+    {
+      "name": "Rhinoceros",
+      "young": "Calf"
+    },
+    {
+      "name": "Camel",
+      "young": "Calf"
+    },
+    {
+      "name": "Llama",
+      "young": "Cria"
+    },
+    {
+      "name": "Alpaca",
+      "young": "Cria"
+    },
+    {
+      "name": "Dromedary",
+      "young": "Calf"
+    },
+    {
+      "name": "Bison",
+      "young": "Calf"
+    },
+    {
+      "name": "Yak",
+      "young": "Calf"
+    },
+    {
+      "name": "Moose",
+      "young": "Calf"
+    },
+    {
+      "name": "Panda",
+      "young": "Cub"
+    },
+    {
+      "name": "Leopard",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Cougar",
+      "young": "Kitten"
+    },
+    {
+      "name": "Jaguar",
+      "young": "Cub"
+    },
+    {
+      "name": "Ocelot",
+      "young": "Kitten"
+    },
+    {
+      "name": "Lynx",
+      "young": "Kitten"
+    },
+    {
+      "name": "Bobcat",
+      "young": "Kitten"
+    },
+    {
+      "name": "Tiger",
+      "young": "Cub"
+    },
+    {
+      "name": "Lion",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Panther",
+      "young": "Cub"
+    },
+    {
+      "name": "Leopard",
+      "young": "Cub"
+    },
+    {
+      "name": "Rhino",
+      "young": "Calf"
+    },
+    {
+      "name": "Hippopotamus",
+      "young": "Calf"
+    },
+    {
+      "name": "Tiger",
+      "young": "Cub"
+    },
+    {
+      "name": "Lion",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Giraffe",
+      "young": "Calf"
+    },
+    {
+      "name": "Rhino",
+      "young": "Calf"
+    },
+    {
+      "name": "Hippopotamus",
+      "young": "Calf"
+    },
+    {
+      "name": "Gazelle",
+      "young": "Calf"
+    },
+    {
+      "name": "Antelope",
+      "young": "Calf"
+    },
+    {
+      "name": "Buffalo",
+      "young": "Calf"
+    },
+    {
+      "name": "Rhinoceros",
+      "young": "Calf"
+    },
+    {
+      "name": "Camel",
+      "young": "Calf"
+    },
+    {
+      "name": "Llama",
+      "young": "Cria"
+    },
+    {
+      "name": "Alpaca",
+      "young": "Cria"
+    },
+    {
+      "name": "Dromedary",
+      "young": "Calf"
+    },
+    {
+      "name": "Bison",
+      "young": "Calf"
+    },
+    {
+      "name": "Yak",
+      "young": "Calf"
+    },
+    {
+      "name": "Moose",
+      "young": "Calf"
+    },
+    {
+      "name": "Panda",
+      "young": "Cub"
+    },
+    {
+      "name": "Leopard",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Cougar",
+      "young": "Kitten"
+    },
+    {
+      "name": "Jaguar",
+      "young": "Cub"
+    },
+    {
+      "name": "Ocelot",
+      "young": "Kitten"
+    },
+    {
+      "name": "Lynx",
+      "young": "Kitten"
+    },
+    {
+      "name": "Bobcat",
+      "young": "Kitten"
+    },
+    {
+      "name": "Tiger",
+      "young": "Cub"
+    },
+    {
+      "name": "Lion",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Panther",
+      "young": "Cub"
+    },
+    {
+      "name": "Leopard",
+      "young": "Cub"
+    },
+    {
+      "name": "Rhino",
+      "young": "Calf"
+    },
+    {
+      "name": "Hippopotamus",
+      "young": "Calf"
+    },
+    {
+      "name": "Tiger",
+      "young": "Cub"
+    },
+    {
+      "name": "Lion",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Giraffe",
+      "young": "Calf"
+    },
+    {
+      "name": "Rhino",
+      "young": "Calf"
+    },
+    {
+      "name": "Hippopotamus",
+      "young": "Calf"
+    },
+    {
+      "name": "Gazelle",
+      "young": "Calf"
+    },
+    {
+      "name": "Antelope",
+      "young": "Calf"
+    },
+    {
+      "name": "Buffalo",
+      "young": "Calf"
+    },
+    {
+      "name": "Rhinoceros",
+      "young": "Calf"
+    },
+    {
+      "name": "Camel",
+      "young": "Calf"
+    },
+    {
+      "name": "Llama",
+      "young": "Cria"
+    },
+    {
+      "name": "Alpaca",
+      "young": "Cria"
+    },
+    {
+      "name": "Dromedary",
+      "young": "Calf"
+    },
+    {
+      "name": "Bison",
+      "young": "Calf"
+    },
+    {
+      "name": "Yak",
+      "young": "Calf"
+    },
+    {
+      "name": "Moose",
+      "young": "Calf"
+    },
+    {
+      "name": "Panda",
+      "young": "Cub"
+    },
+    {
+      "name": "Leopard",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Cougar",
+      "young": "Kitten"
+    },
+    {
+      "name": "Jaguar",
+      "young": "Cub"
+    },
+    {
+      "name": "Ocelot",
+      "young": "Kitten"
+    },
+    {
+      "name": "Lynx",
+      "young": "Kitten"
+    },
+    {
+      "name": "Bobcat",
+      "young": "Kitten"
+    },
+    {
+      "name": "Tiger",
+      "young": "Cub"
+    },
+    {
+      "name": "Lion",
+      "young": "Cub"
+    },
+    {
+      "name": "Cheetah",
+      "young": "Cub"
+    },
+    {
+      "name": "Panther",
+      "young": "Cub"
+    },
+    {
+      "name": "Leopard",
+      "young": "Cub"
+    }
+  ]
+}
