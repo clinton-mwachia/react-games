@@ -87,73 +87,75 @@ const MatchCountryFlags = () => {
   };
 
   return (
-    <Container
-      justifyContent={"center"}
-      textAlign={"center"}
-      alignItems={"center"}
-      p={3}
-      border={"1px"}
-      borderRadius={"10px"}
-      marginTop={"10"}
-    >
-      <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
-        GAMING HUB
-      </Heading>
-      <Text fontSize={"lg"}>Match Flag with Country</Text>
-      {!gameOver ? (
-        <Box>
-          <Center>
-            <Image
-              src={flags[questionIndex].flagUrl}
-              alt={flags[questionIndex].country}
-              width={100}
-              height={100}
-            />
-          </Center>
-          <Text fontSize="xl" mt={4}>
-            Score: {score}/{flags.length}
-          </Text>
-          {showHint && (
-            <Text fontSize="lg" mb={4}>
-              <Box as="i">Hint: The name starts with letter: </Box>
-              {flags[questionIndex].country.charAt(0)}
+    <Center h={"100vh"}>
+      <Container
+        justifyContent={"center"}
+        textAlign={"center"}
+        alignItems={"center"}
+        p={3}
+        border={"1px"}
+        borderRadius={"10px"}
+        marginTop={"10"}
+      >
+        <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
+          GAMING HUB
+        </Heading>
+        <Text fontSize={"lg"}>Match Flag with Country</Text>
+        {!gameOver ? (
+          <Box>
+            <Center>
+              <Image
+                src={flags[questionIndex].flagUrl}
+                alt={flags[questionIndex].country}
+                width={100}
+                height={100}
+              />
+            </Center>
+            <Text fontSize="xl" mt={4}>
+              Score: {score}/{flags.length}
             </Text>
-          )}
-          <Button onClick={() => setShowHint(!showHint)} mb={4}>
-            Toggle Hint
-          </Button>
-          <Grid templateColumns="repeat(2, 1fr)" gap={4}>
-            {renderOptions()}
-          </Grid>
+            {showHint && (
+              <Text fontSize="lg" mb={4}>
+                <Box as="i">Hint: The name starts with letter: </Box>
+                {flags[questionIndex].country.charAt(0)}
+              </Text>
+            )}
+            <Button onClick={() => setShowHint(!showHint)} mb={4}>
+              Toggle Hint
+            </Button>
+            <Grid templateColumns="repeat(2, 1fr)" gap={4}>
+              {renderOptions()}
+            </Grid>
+          </Box>
+        ) : (
+          <Box>
+            <Heading as="h2" size="md" mb={4}>
+              {questionIndex + 1 == flags.length
+                ? "Thanks for playing"
+                : "Game Over!"}{" "}
+              Your total score is {score}/{flags.length}.
+            </Heading>
+            <Button colorScheme="teal" onClick={handleRestart}>
+              Play Again
+            </Button>
+          </Box>
+        )}
+        <Box position="relative" padding="7">
+          <Divider />
+          <AbsoluteCenter px="4">
+            <Text fontWeight={"bold"}> Share Results</Text>
+          </AbsoluteCenter>
         </Box>
-      ) : (
         <Box>
-          <Heading as="h2" size="md" mb={4}>
-            {questionIndex + 1 == flags.length
-              ? "Thanks for playing"
-              : "Game Over!"}{" "}
-            Your total score is {score}/{flags.length}.
-          </Heading>
-          <Button colorScheme="teal" onClick={handleRestart}>
-            Play Again
+          <Button onClick={handleWhatsappShareButton}>
+            <FaWhatsapp />
           </Button>
         </Box>
-      )}
-      <Box position="relative" padding="7">
-        <Divider />
-        <AbsoluteCenter px="4">
-          <Text fontWeight={"bold"}> Share Results</Text>
-        </AbsoluteCenter>
-      </Box>
-      <Box>
-        <Button onClick={handleWhatsappShareButton}>
-          <FaWhatsapp />
-        </Button>
-      </Box>
-      <Box mt={"5"}>
-        <Link to={"/"}>Back Home</Link>
-      </Box>
-    </Container>
+        <Box mt={"5"}>
+          <Link to={"/"}>Back Home</Link>
+        </Box>
+      </Container>
+    </Center>
   );
 };
 

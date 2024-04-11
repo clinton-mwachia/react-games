@@ -1,5 +1,13 @@
 import { useState } from "react";
-import { Container, Heading, Grid, Box, Button, Text } from "@chakra-ui/react";
+import {
+  Container,
+  Heading,
+  Grid,
+  Box,
+  Button,
+  Text,
+  Center,
+} from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import capitalsData from "./capitals.json";
 
@@ -59,57 +67,59 @@ const GuessCapitalCity = () => {
   };
 
   return (
-    <Container
-      justifyContent={"center"}
-      textAlign={"center"}
-      alignItems={"center"}
-      p={10}
-      border={"2px"}
-      borderRadius={"10px"}
-      marginTop={"10"}
-    >
-      <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
-        GAMING HUB
-      </Heading>
-      <Heading> Guess Capital City</Heading>
-      {!gameOver ? (
-        <Box>
-          <Heading as="h2" size="md" mb={4}>
-            What is the capital city of{" "}
-            <Box color={"blue.300"} as="i">
-              {quizData[questionIndex].country} ?
-            </Box>
-          </Heading>
-          {showHint && (
-            <Text fontSize="lg" mb={4}>
-              <Box as="i">Hint: The capital city starts with letter: </Box>
-              {quizData[questionIndex].capital.charAt(0)}
-            </Text>
-          )}
-          <Button onClick={() => setShowHint(!showHint)} mb={4}>
-            Toggle Hint
-          </Button>
-          <Grid templateColumns="repeat(2, 1fr)" gap={4}>
-            {renderOptions()}
-          </Grid>
+    <Center h={"100vh"}>
+      <Container
+        justifyContent={"center"}
+        textAlign={"center"}
+        alignItems={"center"}
+        p={10}
+        border={"2px"}
+        borderRadius={"10px"}
+        marginTop={"10"}
+      >
+        <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
+          GAMING HUB
+        </Heading>
+        <Heading> Guess Capital City</Heading>
+        {!gameOver ? (
+          <Box>
+            <Heading as="h2" size="md" mb={4}>
+              What is the capital city of{" "}
+              <Box color={"blue.300"} as="i">
+                {quizData[questionIndex].country} ?
+              </Box>
+            </Heading>
+            {showHint && (
+              <Text fontSize="lg" mb={4}>
+                <Box as="i">Hint: The capital city starts with letter: </Box>
+                {quizData[questionIndex].capital.charAt(0)}
+              </Text>
+            )}
+            <Button onClick={() => setShowHint(!showHint)} mb={4}>
+              Toggle Hint
+            </Button>
+            <Grid templateColumns="repeat(2, 1fr)" gap={4}>
+              {renderOptions()}
+            </Grid>
+          </Box>
+        ) : (
+          <Box>
+            <Heading as="h2" size="md" mb={4}>
+              {questionIndex + 1 == quizData.length
+                ? "Thanks for playing"
+                : "Game Over!"}{" "}
+              Your total score is {score}/{quizData.length}.
+            </Heading>
+            <Button colorScheme="teal" onClick={handleRestart}>
+              Play Again
+            </Button>
+          </Box>
+        )}
+        <Box mt={"10"}>
+          <Link to={"/"}>Back Home</Link>
         </Box>
-      ) : (
-        <Box>
-          <Heading as="h2" size="md" mb={4}>
-            {questionIndex + 1 == quizData.length
-              ? "Thanks for playing"
-              : "Game Over!"}{" "}
-            Your total score is {score}/{quizData.length}.
-          </Heading>
-          <Button colorScheme="teal" onClick={handleRestart}>
-            Play Again
-          </Button>
-        </Box>
-      )}
-      <Box mt={"10"}>
-        <Link to={"/"}>Back Home</Link>
-      </Box>
-    </Container>
+      </Container>
+    </Center>
   );
 };
 

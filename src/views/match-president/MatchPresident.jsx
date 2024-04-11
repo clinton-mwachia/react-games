@@ -5,6 +5,7 @@ import {
   Box,
   Button,
   Heading,
+  Center,
   Grid,
   Divider,
   AbsoluteCenter,
@@ -85,72 +86,74 @@ const MatchPresident = () => {
   };
 
   return (
-    <Container
-      justifyContent={"center"}
-      textAlign={"center"}
-      alignItems={"center"}
-      p={3}
-      border={"1px"}
-      borderRadius={"10px"}
-      marginTop={"10"}
-    >
-      <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
-        GAMING HUB
-      </Heading>
-      <Text fontSize={"lg"}>Match President with Country</Text>
-      {!gameOver ? (
-        <Box>
-          <Heading as="h2" size="md" mb={4}>
-            The president of{" "}
-            <Box color={"blue.300"} as="i">
-              {presidents[questionIndex].country}
-            </Box>{" "}
-            is ?
-          </Heading>
-          <Text fontSize="xl" mt={4}>
-            Score: {score}/{presidents.length}
-          </Text>
-          {showHint && (
-            <Text fontSize="lg" mb={4}>
-              <Box as="i">Hint: The name starts with letter: </Box>
-              {presidents[questionIndex].name.charAt(0)}
+    <Center h={"100vh"}>
+      {" "}
+      <Container
+        justifyContent={"center"}
+        textAlign={"center"}
+        alignItems={"center"}
+        p={3}
+        border={"1px"}
+        borderRadius={"10px"}
+      >
+        <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
+          GAMING HUB
+        </Heading>
+        <Text fontSize={"lg"}>Match President with Country</Text>
+        {!gameOver ? (
+          <Box>
+            <Heading as="h2" size="md" mb={4}>
+              The president of{" "}
+              <Box color={"blue.300"} as="i">
+                {presidents[questionIndex].country}
+              </Box>{" "}
+              is ?
+            </Heading>
+            <Text fontSize="xl" mt={4}>
+              Score: {score}/{presidents.length}
             </Text>
-          )}
-          <Button onClick={() => setShowHint(!showHint)} mb={4}>
-            Toggle Hint
-          </Button>
-          <Grid templateColumns="repeat(2, 1fr)" gap={4}>
-            {renderOptions()}
-          </Grid>
+            {showHint && (
+              <Text fontSize="lg" mb={4}>
+                <Box as="i">Hint: The name starts with letter: </Box>
+                {presidents[questionIndex].name.charAt(0)}
+              </Text>
+            )}
+            <Button onClick={() => setShowHint(!showHint)} mb={4}>
+              Toggle Hint
+            </Button>
+            <Grid templateColumns="repeat(2, 1fr)" gap={4}>
+              {renderOptions()}
+            </Grid>
+          </Box>
+        ) : (
+          <Box>
+            <Heading as="h2" size="md" mb={4}>
+              {questionIndex + 1 == presidents.length
+                ? "Thanks for playing"
+                : "Game Over!"}{" "}
+              Your total score is {score}/{presidents.length}.
+            </Heading>
+            <Button colorScheme="teal" onClick={handleRestart}>
+              Play Again
+            </Button>
+          </Box>
+        )}
+        <Box position="relative" padding="7">
+          <Divider />
+          <AbsoluteCenter px="4">
+            <Text fontWeight={"bold"}> Share Results</Text>
+          </AbsoluteCenter>
         </Box>
-      ) : (
         <Box>
-          <Heading as="h2" size="md" mb={4}>
-            {questionIndex + 1 == presidents.length
-              ? "Thanks for playing"
-              : "Game Over!"}{" "}
-            Your total score is {score}/{presidents.length}.
-          </Heading>
-          <Button colorScheme="teal" onClick={handleRestart}>
-            Play Again
+          <Button onClick={handleWhatsappShareButton}>
+            <FaWhatsapp />
           </Button>
         </Box>
-      )}
-      <Box position="relative" padding="7">
-        <Divider />
-        <AbsoluteCenter px="4">
-          <Text fontWeight={"bold"}> Share Results</Text>
-        </AbsoluteCenter>
-      </Box>
-      <Box>
-        <Button onClick={handleWhatsappShareButton}>
-          <FaWhatsapp />
-        </Button>
-      </Box>
-      <Box mt={"5"}>
-        <Link to={"/"}>Back Home</Link>
-      </Box>
-    </Container>
+        <Box mt={"5"}>
+          <Link to={"/"}>Back Home</Link>
+        </Box>
+      </Container>
+    </Center>
   );
 };
 

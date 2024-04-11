@@ -8,7 +8,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
-import { Switch } from "@chakra-ui/react";
+import { Switch, Center } from "@chakra-ui/react";
 import { ArrowBackIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 
@@ -92,52 +92,54 @@ const ColorMatching = () => {
   };
 
   return (
-    <Container
-      justifyContent={"center"}
-      textAlign={"center"}
-      alignItems={"center"}
-      p={10}
-    >
-      <Heading
-        bgGradient="linear(to-l, #7928CA, #FF0080)"
-        bgClip="text"
-        fontWeight="extrabold"
+    <Center h={"100vh"}>
+      <Container
+        justifyContent={"center"}
+        textAlign={"center"}
+        alignItems={"center"}
+        p={10}
       >
-        GAMING HUB
-      </Heading>
-      <Text fontSize="xl" mb={4}>
-        Click on the matching color: {targetColor.name}
-      </Text>
-      <Switch
-        onChange={() => setIsHardMode(!isHardMode)}
-        isChecked={isHardMode}
-      >
-        Hard Mode
-      </Switch>
-      <Text fontSize="xl" fontWeight="bold" mb={4}>
-        Score: {score} | Time: {timer}s
-      </Text>
-      <SimpleGrid columns={{ base: 2, sm: 2, md: 4, lg: 4 }} spacing={4}>
-        {colors.map((color) => (
-          <Button
-            key={color.value}
-            bg={color.value}
-            h="10"
-            w="full"
-            onClick={() => handleColorClick(color)}
-          >
-            {isHardMode ? "" : `${color.name}`}
-          </Button>
-        ))}
-      </SimpleGrid>
-      <Text mt={4} fontSize="lg" fontWeight="bold">
-        Highest Scores: {highestScores.join(", ")}
-      </Text>
-      <Box mt={"5px"}>
-        <ArrowBackIcon />
-        <Link to={"/"}>All Games</Link>
-      </Box>
-    </Container>
+        <Heading
+          bgGradient="linear(to-l, #7928CA, #FF0080)"
+          bgClip="text"
+          fontWeight="extrabold"
+        >
+          GAMING HUB
+        </Heading>
+        <Text fontSize="xl" mb={4}>
+          Click on the matching color: {targetColor.name}
+        </Text>
+        <Switch
+          onChange={() => setIsHardMode(!isHardMode)}
+          isChecked={isHardMode}
+        >
+          Hard Mode
+        </Switch>
+        <Text fontSize="xl" fontWeight="bold" mb={4}>
+          Score: {score} | Time: {timer}s
+        </Text>
+        <SimpleGrid columns={{ base: 2, sm: 2, md: 4, lg: 4 }} spacing={4}>
+          {colors.map((color) => (
+            <Button
+              key={color.value}
+              bg={color.value}
+              h="10"
+              w="full"
+              onClick={() => handleColorClick(color)}
+            >
+              {isHardMode ? "" : `${color.name}`}
+            </Button>
+          ))}
+        </SimpleGrid>
+        <Text mt={4} fontSize="lg" fontWeight="bold">
+          Highest Scores: {highestScores.join(", ")}
+        </Text>
+        <Box mt={"5px"}>
+          <ArrowBackIcon />
+          <Link to={"/"}>All Games</Link>
+        </Box>
+      </Container>
+    </Center>
   );
 };
 

@@ -1,5 +1,13 @@
 import { useState } from "react";
-import { Container, Heading, Text, Button, Input, Box } from "@chakra-ui/react";
+import {
+  Container,
+  Heading,
+  Text,
+  Button,
+  Input,
+  Box,
+  Center,
+} from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { ArrowBackIcon } from "@chakra-ui/icons";
 
@@ -46,44 +54,43 @@ const GuessNumber = () => {
   };
 
   return (
-    <Container
-      justifyContent={"center"}
-      textAlign={"center"}
-      alignItems={"center"}
-      mt={"10"}
-      p={10}
-      border={"2px"}
-      borderRadius={"10px"}
-      marginTop={"10"}
-    >
-      <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
-        GAMING HUB
-      </Heading>
-      <Heading>Guess the number</Heading>
-      <Text fontSize="xl" mb={4}>
-        {message}
-      </Text>
-      <Input
-        type="number"
-        placeholder="Enter your guess"
-        value={guess}
-        onChange={(e) => setGuess(e.target.value)}
-        mb={4}
-      />
-      <Button colorScheme="teal" onClick={handleGuess}>
-        Guess
-      </Button>
-      <Button onClick={reStart} ml={2}>
-        Restart
-      </Button>
-      <br />
-      <Text mt={4}>Guesses count: {guessCount}</Text>
-      <Text mt={2}>Guesses: {guesses.join(", ")}</Text>
-      <Box mt={"10"}>
-        <ArrowBackIcon />
-        <Link to={"/"}>Back Home</Link>
-      </Box>
-    </Container>
+    <Center h={"100vh"}>
+      <Container
+        justifyContent={"center"}
+        textAlign={"center"}
+        alignItems={"center"}
+        mt={{ md: 30, sm: 50 }}
+        p={10}
+      >
+        <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
+          GAMING HUB
+        </Heading>
+        <Heading>Guess the number</Heading>
+        <Text fontSize="xl" mb={4}>
+          {message}
+        </Text>
+        <Input
+          type="number"
+          placeholder="Enter your guess"
+          value={guess}
+          onChange={(e) => setGuess(e.target.value)}
+          mb={4}
+        />
+        <Button colorScheme="teal" onClick={handleGuess}>
+          Guess
+        </Button>
+        <Button onClick={reStart} ml={2}>
+          Restart
+        </Button>
+        <br />
+        <Text mt={4}>Guesses count: {guessCount}</Text>
+        <Text mt={2}>Guesses: {guesses.join(", ")}</Text>
+        <Box mt={"10"}>
+          <ArrowBackIcon />
+          <Link to={"/"}>Back Home</Link>
+        </Box>
+      </Container>
+    </Center>
   );
 };
 

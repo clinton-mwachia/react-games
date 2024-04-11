@@ -5,6 +5,7 @@ import {
   Button,
   Grid,
   Box,
+  Center,
   Divider,
   AbsoluteCenter,
   Heading,
@@ -82,64 +83,66 @@ const Synonyms = () => {
   };
 
   return (
-    <Container
-      justifyContent={"center"}
-      textAlign={"center"}
-      alignItems={"center"}
-      p={2}
-      border={"1px"}
-      borderRadius={"10px"}
-      marginTop={"10"}
-    >
-      <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
-        GAMING HUB
-      </Heading>
-      <Text fontSize={"lg"} as={"b"}>
-        Synonyms
-      </Text>
-      {!gameOver ? (
-        <Box>
-          <Heading as="h2" size="md" mb={4}>
-            What is the synonym for {""}
-            <Box color={"blue.300"} as="i">
-              {synonyms[currentQuestionIndex].word} ?
+    <Center h={"100vh"}>
+      <Container
+        justifyContent={"center"}
+        textAlign={"center"}
+        alignItems={"center"}
+        p={2}
+        border={"1px"}
+        borderRadius={"10px"}
+        marginTop={"10"}
+      >
+        <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
+          GAMING HUB
+        </Heading>
+        <Text fontSize={"lg"} as={"b"}>
+          Synonyms
+        </Text>
+        {!gameOver ? (
+          <Box>
+            <Heading as="h2" size="md" mb={4}>
+              What is the synonym for {""}
+              <Box color={"blue.300"} as="i">
+                {synonyms[currentQuestionIndex].word} ?
+              </Box>
+            </Heading>
+            <Box marginBottom={3}>
+              {score}/{synonyms.length}
             </Box>
-          </Heading>
-          <Box marginBottom={3}>
-            {score}/{synonyms.length}
+            <Grid templateColumns="repeat(2, 1fr)" gap={4}>
+              {renderOptions()}
+            </Grid>
           </Box>
-          <Grid templateColumns="repeat(2, 1fr)" gap={4}>
-            {renderOptions()}
-          </Grid>
+        ) : (
+          <Box>
+            <Heading as="h2" size="md" mb={4}>
+              {currentQuestionIndex + 1 == synonyms.length
+                ? "Thanks for playing"
+                : "Game Over!"}{" "}
+              Your total score is {score}/{synonyms.length}.
+            </Heading>
+            <Button colorScheme="teal" onClick={restartGame}>
+              Play Again
+            </Button>
+          </Box>
+        )}
+        <Box position="relative" padding="7">
+          <Divider />
+          <AbsoluteCenter px="4">
+            <Text fontWeight={"bold"}> Share Results</Text>
+          </AbsoluteCenter>
         </Box>
-      ) : (
         <Box>
-          <Heading as="h2" size="md" mb={4}>
-            {currentQuestionIndex + 1 == synonyms.length
-              ? "Thanks for playing"
-              : "Game Over!"}{" "}
-            Your total score is {score}/{synonyms.length}.
-          </Heading>
-          <Button colorScheme="teal" onClick={restartGame}>
-            Play Again
+          <Button onClick={handleWhatsappShareButton}>
+            <FaWhatsapp />
           </Button>
         </Box>
-      )}
-      <Box position="relative" padding="7">
-        <Divider />
-        <AbsoluteCenter px="4">
-          <Text fontWeight={"bold"}> Share Results</Text>
-        </AbsoluteCenter>
-      </Box>
-      <Box>
-        <Button onClick={handleWhatsappShareButton}>
-          <FaWhatsapp />
-        </Button>
-      </Box>
-      <Box mt={"5"}>
-        <Link to={"/"}>Back Home</Link>
-      </Box>
-    </Container>
+        <Box mt={"5"}>
+          <Link to={"/"}>Back Home</Link>
+        </Box>
+      </Container>
+    </Center>
   );
 };
 
