@@ -40,12 +40,11 @@ const Riddles = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/match-county-currencies";
+    const game = "http://localhost:5173/riddles";
     const message = `
-        Hellow Friend! I've been playing this awesome game called Matching Currencies, and
+        Hellow Friend! I've been playing this awesome game, and
         I just scored ${score}/${riddles.length} points! Think you can beat me? Give 
-        it a try and let's see who comes out on top! Play here: ${game}
-        `;
+        it a try and let's see who comes out on top! Play here: ${game}`;
     const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink);
   };
@@ -65,7 +64,6 @@ const Riddles = () => {
 
   const hasRepetitionsFlag = findRepetitions(riddles);
   console.log("Repetitions found:", hasRepetitionsFlag);*/
-
   return (
     <Container
       justifyContent={"center"}
@@ -112,7 +110,10 @@ const Riddles = () => {
       ) : (
         <VStack spacing={4}>
           <Text fontSize="xl">
-            Game Over! Your final score is {score}/{riddles.length}
+            {currentQuestionIndex + 1 == riddles.length
+              ? "Thanks for playing"
+              : "Game Over!"}{" "}
+            Your final score is {score}/{riddles.length}
           </Text>
           <Button colorScheme="blue" onClick={restartGame}>
             Restart
