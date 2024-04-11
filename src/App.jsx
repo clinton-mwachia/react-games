@@ -37,6 +37,9 @@ const Riddles = lazy(() => import("./views/riddles/Riddles"));
 const YoungOnesAnimals = lazy(() =>
   import("./views/young-ones-animals/YoungOnesAnimals")
 );
+const AnimalsGender = lazy(() =>
+  import("./views/animals-gender/AnimalsGender")
+);
 
 const Loading = () => {
   return (
@@ -74,6 +77,7 @@ const App = () => {
           <Route path="/match-currency" element={<MatchCurrency />} />
           <Route path="/riddles" element={<Riddles />} />
           <Route path="/young-ones-animals" element={<YoungOnesAnimals />} />
+          <Route path="/animals-match-mate" element={<AnimalsGender />} />
           <Route path={"*"} element={<NotFound />} />
         </Routes>
       </Suspense>

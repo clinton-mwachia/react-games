@@ -20,6 +20,7 @@ const Home = () => {
     { to: "/match-currency", name: "match-currency" },
     { to: "/riddles", name: "riddles" },
     { to: "/young-ones-animals", name: "young-ones-animals" },
+    { to: "/animals-match-mate", name: "match mate" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
