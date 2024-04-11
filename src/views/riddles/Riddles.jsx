@@ -21,7 +21,7 @@ const Riddles = () => {
   const { riddles } = riddlesData;
 
   const handleAnswer = (selectedOption) => {
-    if (selectedOption === riddles[currentQuestionIndex].correctAnswer) {
+    if (selectedOption === riddles[currentQuestionIndex].answer) {
       setScore(score + 1);
       if (currentQuestionIndex === riddles.length - 1) {
         setGameOver(true);
@@ -49,6 +49,22 @@ const Riddles = () => {
     const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink);
   };
+  /*
+  const findRepetitions = (questions) => {
+    const questionSet = new Set();
+    const repeatedQuestions = new Set();
+    for (const questionObj of questions) {
+      const question = questionObj.question;
+      if (questionSet.has(question)) {
+        repeatedQuestions.add(question);
+      }
+      questionSet.add(question);
+    }
+    return Array.from(repeatedQuestions);
+  };
+
+  const hasRepetitionsFlag = findRepetitions(riddles);
+  console.log("Repetitions found:", hasRepetitionsFlag);*/
 
   return (
     <Container
