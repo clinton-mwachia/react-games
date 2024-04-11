@@ -34,6 +34,9 @@ const MatchCurrency = lazy(() =>
   import("./views/match-currencies/MatchCurrencies")
 );
 const Riddles = lazy(() => import("./views/riddles/Riddles"));
+const YoungOnesAnimals = lazy(() =>
+  import("./views/young-ones-animals/YoungOnesAnimals")
+);
 
 const Loading = () => {
   return (
@@ -70,6 +73,7 @@ const App = () => {
           <Route path="/match-food-category" element={<MatchFoodCategory />} />
           <Route path="/match-currency" element={<MatchCurrency />} />
           <Route path="/riddles" element={<Riddles />} />
+          <Route path="/young-ones-animals" element={<YoungOnesAnimals />} />
           <Route path={"*"} element={<NotFound />} />
         </Routes>
       </Suspense>
