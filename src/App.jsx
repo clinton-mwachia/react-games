@@ -41,6 +41,9 @@ const AnimalsGender = lazy(() =>
   import("./views/animals-gender/AnimalsGender")
 );
 const Synonyms = lazy(() => import("./views/synonyms/Synonyms"));
+const EnglistToKiswahili = lazy(() =>
+  import("./views/english-to-kiswahili/EnglistToKiswahili")
+);
 
 const Loading = () => {
   return (
@@ -80,6 +83,7 @@ const App = () => {
           <Route path="/young-ones-animals" element={<YoungOnesAnimals />} />
           <Route path="/animals-match-mate" element={<AnimalsGender />} />
           <Route path="/synonyms" element={<Synonyms />} />
+          <Route path="/eng-to-kis" element={<EnglistToKiswahili />} />
           <Route path={"*"} element={<NotFound />} />
         </Routes>
       </Suspense>
