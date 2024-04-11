@@ -124,7 +124,10 @@ const MatchFoodCategory = () => {
       ) : (
         <Box>
           <Heading as="h2" size="md" mb={4}>
-            Game Over! Your total score is {score}/{foods.length}.
+            {questionIndex + 1 == foods.length
+              ? "Thanks for playing"
+              : "Game Over!"}{" "}
+            Your total score is {score}/{foods.length}.
           </Heading>
           <Button colorScheme="teal" onClick={handleRestart}>
             Play Again

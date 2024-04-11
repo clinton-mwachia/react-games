@@ -124,7 +124,10 @@ const MatchCounties = () => {
       ) : (
         <Box>
           <Heading as="h2" size="md" mb={4}>
-            Game Over! Your total score is {score}/{counties.length}.
+            {questionIndex + 1 == counties.length
+              ? "Thanks for playing"
+              : "Game Over!"}{" "}
+            Your total score is {score}/{counties.length}.
           </Heading>
           <Button colorScheme="teal" onClick={handleRestart}>
             Play Again

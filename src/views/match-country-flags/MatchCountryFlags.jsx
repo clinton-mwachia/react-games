@@ -129,7 +129,10 @@ const MatchCountryFlags = () => {
       ) : (
         <Box>
           <Heading as="h2" size="md" mb={4}>
-            Game Over! Your total score is {score}/{flags.length}.
+            {questionIndex + 1 == flags.length
+              ? "Thanks for playing"
+              : "Game Over!"}{" "}
+            Your total score is {score}/{flags.length}.
           </Heading>
           <Button colorScheme="teal" onClick={handleRestart}>
             Play Again

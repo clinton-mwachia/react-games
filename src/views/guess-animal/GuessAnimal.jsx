@@ -57,22 +57,20 @@ const GuessAnimal = () => {
           <Text fontSize="xl">{questions[currentQuestionIndex].question}</Text>
           <Grid templateColumns="repeat(2, 1fr)" gap={4}>
             {questions[currentQuestionIndex].options.map((option) => (
-              <>
-                <Button
-                  key={option}
-                  onClick={() => handleAnswer(option)}
-                  colorScheme="blue"
-                  variant="outline"
-                  size="sm"
-                  w={{ base: "full", md: "auto" }}
-                  whiteSpace="normal"
-                  overflowWrap="break-word"
-                  wordwrap="break-word"
-                  textAlign="center"
-                >
-                  {option}
-                </Button>
-              </>
+              <Button
+                key={option}
+                onClick={() => handleAnswer(option)}
+                colorScheme="blue"
+                variant="outline"
+                size="sm"
+                w={{ base: "full", md: "auto" }}
+                whiteSpace="normal"
+                overflowWrap="break-word"
+                wordwrap="break-word"
+                textAlign="center"
+              >
+                {option}
+              </Button>
             ))}
           </Grid>
           <Text fontSize="xl" mt={4}>
@@ -90,7 +88,10 @@ const GuessAnimal = () => {
       ) : (
         <VStack spacing={4}>
           <Text fontSize="xl">
-            Game Over! Your final score is {score}/{questions.length}
+            {currentQuestionIndex + 1 == questions.length
+              ? "Thanks for playing"
+              : "Game Over!"}{" "}
+            Your final score is {score}/{questions.length}
           </Text>
           <Button colorScheme="blue" onClick={restartGame}>
             Restart
