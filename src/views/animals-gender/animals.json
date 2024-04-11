@@ -1,3 +1,549 @@
 {
-  "animals": []
+  "animals": [
+    {
+      "animal": "Lion",
+      "male": "Lion",
+      "female": "Lioness"
+    },
+    {
+      "animal": "Elephant",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Tiger",
+      "male": "Tiger",
+      "female": "Tigress"
+    },
+    {
+      "animal": "Giraffe",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Zebra",
+      "male": "Stallion",
+      "female": "Mare"
+    },
+    {
+      "animal": "Kangaroo",
+      "male": "Buck",
+      "female": "Doe"
+    },
+    {
+      "animal": "Bear",
+      "male": "Boar",
+      "female": "Sow"
+    },
+    {
+      "animal": "Horse",
+      "male": "Stallion",
+      "female": "Mare"
+    },
+    {
+      "animal": "Dog",
+      "male": "Dog",
+      "female": "Bitch"
+    },
+    {
+      "animal": "Cat",
+      "male": "Tom",
+      "female": "Queen"
+    },
+    {
+      "animal": "Goose",
+      "male": "Gander",
+      "female": "Goose"
+    },
+    {
+      "animal": "Sheep",
+      "male": "Ram",
+      "female": "Ewe"
+    },
+    {
+      "animal": "Chicken",
+      "male": "Rooster",
+      "female": "Hen"
+    },
+    {
+      "animal": "Duck",
+      "male": "Drake",
+      "female": "Duck"
+    },
+    {
+      "animal": "Deer",
+      "male": "Buck",
+      "female": "Doe"
+    },
+    {
+      "animal": "Rabbit",
+      "male": "Buck",
+      "female": "Doe"
+    },
+    {
+      "animal": "Fox",
+      "male": "Dog",
+      "female": "Vixen"
+    },
+    {
+      "animal": "Wolf",
+      "male": "Wolf",
+      "female": "She-wolf"
+    },
+    {
+      "animal": "Cow",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Ox",
+      "male": "Ox",
+      "female": "Ox"
+    },
+    {
+      "animal": "Buffalo",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Pig",
+      "male": "Boar",
+      "female": "Sow"
+    },
+    {
+      "animal": "Rhino",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Hippopotamus",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Crocodile",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Alligator",
+      "male": "Bull",
+      "female": "Cow"
+    },
+    {
+      "animal": "Frog",
+      "male": "Frog",
+      "female": "Frog"
+    },
+    {
+      "animal": "Toad",
+      "male": "Toad",
+      "female": "Toad"
+    },
+    {
+      "animal": "Snake",
+      "male": "Snake",
+      "female": "Snake"
+    },
+    {
+      "animal": "Gorilla",
+      "male": "Silverback",
+      "female": "Female Gorilla"
+    },
+    {
+      "animal": "Chimpanzee",
+      "male": "Chimpanzee",
+      "female": "Chimpanzee"
+    },
+    {
+      "animal": "Bonobo",
+      "male": "Bonobo",
+      "female": "Bonobo"
+    },
+    {
+      "animal": "Orangutan",
+      "male": "Orangutan",
+      "female": "Orangutan"
+    },
+    {
+      "animal": "Monkey",
+      "male": "Monkey",
+      "female": "Monkey"
+    },
+    {
+      "animal": "Gibbon",
+      "male": "Gibbon",
+      "female": "Gibbon"
+    },
+    {
+      "animal": "Rat",
+      "male": "Buck",
+      "female": "Doe"
+    },
+    {
+      "animal": "Mouse",
+      "male": "Buck",
+      "female": "Doe"
+    },
+    {
+      "animal": "Squirrel",
+      "male": "Buck",
+      "female": "Doe"
+    },
+    {
+      "animal": "Hedgehog",
+      "male": "Boar",
+      "female": "Sow"
+    },
+    {
+      "animal": "Hamster",
+      "male": "Buck",
+      "female": "Doe"
+    },
+    {
+      "animal": "Guinea Pig",
+      "male": "Boar",
+      "female": "Sow"
+    },
+    {
+      "animal": "Raccoon",
+      "male": "Boar",
+      "female": "Sow"
+    },
+    {
+      "animal": "Ferret",
+      "male": "Hob",
+      "female": "Jill"
+    },
+    {
+      "animal": "Owl",
+      "male": "Owl",
+      "female": "Owl"
+    },
+    {
+      "animal": "Eagle",
+      "male": "Eagle",
+      "female": "Eagle"
+    },
+    {
+      "animal": "Hawk",
+      "male": "Hawk",
+      "female": "Hawk"
+    },
+    {
+      "animal": "Falcon",
+      "male": "Falcon",
+      "female": "Falcon"
+    },
+    {
+      "animal": "Parrot",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Penguin",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Dove",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Swan",
+      "male": "Cob",
+      "female": "Pen"
+    },
+    {
+      "animal": "Turkey",
+      "male": "Tom",
+      "female": "Hen"
+    },
+    {
+      "animal": "Vulture",
+      "male": "Vulture",
+      "female": "Vulture"
+    },
+    {
+      "animal": "Seagull",
+      "male": "Seagull",
+      "female": "Seagull"
+    },
+    {
+      "animal": "Albatross",
+      "male": "Albatross",
+      "female": "Albatross"
+    },
+    {
+      "animal": "Crow",
+      "male": "Crow",
+      "female": "Crow"
+    },
+    {
+      "animal": "Raven",
+      "male": "Raven",
+      "female": "Raven"
+    },
+    {
+      "animal": "Jay",
+      "male": "Jay",
+      "female": "Jay"
+    },
+    {
+      "animal": "Magpie",
+      "male": "Magpie",
+      "female": "Magpie"
+    },
+    {
+      "animal": "Woodpecker",
+      "male": "Woodpecker",
+      "female": "Woodpecker"
+    },
+    {
+      "animal": "Robin",
+      "male": "Robin",
+      "female": "Robin"
+    },
+    {
+      "animal": "Sparrow",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Starling",
+      "male": "Starling",
+      "female": "Starling"
+    },
+    {
+      "animal": "Blackbird",
+      "male": "Blackbird",
+      "female": "Blackbird"
+    },
+    {
+      "animal": "Ostrich",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Emu",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Cassowary",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Kiwi",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Condor",
+      "male": "Condor",
+      "female": "Condor"
+    },
+    {
+      "animal": "Sparrowhawk",
+      "male": "Sparrowhawk",
+      "female": "Sparrowhawk"
+    },
+    {
+      "animal": "Osprey",
+      "male": "Osprey",
+      "female": "Osprey"
+    },
+    {
+      "animal": "Spoonbill",
+      "male": "Spoonbill",
+      "female": "Spoonbill"
+    },
+    {
+      "animal": "Stork",
+      "male": "Stork",
+      "female": "Stork"
+    },
+    {
+      "animal": "Flamingo",
+      "male": "Flamingo",
+      "female": "Flamingo"
+    },
+    {
+      "animal": "Pelican",
+      "male": "Pelican",
+      "female": "Pelican"
+    },
+    {
+      "animal": "Heron",
+      "male": "Heron",
+      "female": "Heron"
+    },
+    {
+      "animal": "Egret",
+      "male": "Egret",
+      "female": "Egret"
+    },
+    {
+      "animal": "Grebe",
+      "male": "Grebe",
+      "female": "Grebe"
+    },
+    {
+      "animal": "Coot",
+      "male": "Coot",
+      "female": "Coot"
+    },
+    {
+      "animal": "Moorhen",
+      "male": "Moorhen",
+      "female": "Moorhen"
+    },
+    {
+      "animal": "Rail",
+      "male": "Rail",
+      "female": "Rail"
+    },
+    {
+      "animal": "Swallow",
+      "male": "Swallow",
+      "female": "Swallow"
+    },
+    {
+      "animal": "House Martin",
+      "male": "Cock",
+      "female": "Hen"
+    },
+    {
+      "animal": "Swift",
+      "male": "Swift",
+      "female": "Swift"
+    },
+    {
+      "animal": "Hummingbird",
+      "male": "Hummingbird",
+      "female": "Hummingbird"
+    },
+    {
+      "animal": "Puffin",
+      "male": "Puffin",
+      "female": "Puffin"
+    },
+    {
+      "animal": "Kingfisher",
+      "male": "Kingfisher",
+      "female": "Kingfisher"
+    },
+    {
+      "animal": "Magellanic Penguin",
+      "male": "Magellanic Penguin",
+      "female": "Magellanic Penguin"
+    },
+    {
+      "animal": "Guillemot",
+      "male": "Guillemot",
+      "female": "Guillemot"
+    },
+    {
+      "animal": "Rockhopper Penguin",
+      "male": "Rockhopper Penguin",
+      "female": "Rockhopper Penguin"
+    },
+    {
+      "animal": "Mallard",
+      "male": "Drake",
+      "female": "Duck"
+    },
+    {
+      "animal": "Eider",
+      "male": "Drake",
+      "female": "Duck"
+    },
+    {
+      "animal": "Goldeneye",
+      "male": "Drake",
+      "female": "Duck"
+    },
+    {
+      "animal": "Teal",
+      "male": "Drake",
+      "female": "Duck"
+    },
+    {
+      "animal": "Gadwall",
+      "male": "Gadwall",
+      "female": "Gadwall"
+    },
+    {
+      "animal": "Wigeon",
+      "male": "Wigeon",
+      "female": "Wigeon"
+    },
+    {
+      "animal": "Pintail",
+      "male": "Pintail",
+      "female": "Pintail"
+    },
+    {
+      "animal": "Shoveler",
+      "male": "Shoveler",
+      "female": "Shoveler"
+    },
+    {
+      "animal": "Scaup",
+      "male": "Scaup",
+      "female": "Scaup"
+    },
+    {
+      "animal": "Scoter",
+      "male": "Scoter",
+      "female": "Scoter"
+    },
+    {
+      "animal": "Merganser",
+      "male": "Merganser",
+      "female": "Merganser"
+    },
+    {
+      "animal": "Ruddy Duck",
+      "male": "Ruddy Duck",
+      "female": "Ruddy Duck"
+    },
+    {
+      "animal": "Shelduck",
+      "male": "Shelduck",
+      "female": "Shelduck"
+    },
+    {
+      "animal": "Brent Goose",
+      "male": "Brent Goose",
+      "female": "Brent Goose"
+    },
+    {
+      "animal": "Barnacle Goose",
+      "male": "Barnacle Goose",
+      "female": "Barnacle Goose"
+    },
+    {
+      "animal": "Canada Goose",
+      "male": "Gander",
+      "female": "Goose"
+    },
+    {
+      "animal": "Egyptian Goose",
+      "male": "Gander",
+      "female": "Goose"
+    },
+    {
+      "animal": "Greylag Goose",
+      "male": "Gander",
+      "female": "Goose"
+    },
+    {
+      "animal": "Snow Goose",
+      "male": "Snow Goose",
+      "female": "Snow Goose"
+    }
+  ]
 }
