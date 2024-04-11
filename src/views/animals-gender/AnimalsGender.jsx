@@ -59,8 +59,14 @@ const AnimalsGender = () => {
       options.push(
         <Button
           key={i}
-          size="lg"
+          colorScheme="blue"
           variant="outline"
+          size="sm"
+          w={{ base: "full", md: "auto" }}
+          whiteSpace="normal"
+          overflowWrap="break-word"
+          wordwrap="break-word"
+          textAlign="center"
           onClick={() => handleAnswer(females[i])}
         >
           {females[i]}
