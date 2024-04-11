@@ -40,6 +40,7 @@ const YoungOnesAnimals = lazy(() =>
 const AnimalsGender = lazy(() =>
   import("./views/animals-gender/AnimalsGender")
 );
+const Synonyms = lazy(() => import("./views/synonyms/Synonyms"));
 
 const Loading = () => {
   return (
@@ -78,6 +79,7 @@ const App = () => {
           <Route path="/riddles" element={<Riddles />} />
           <Route path="/young-ones-animals" element={<YoungOnesAnimals />} />
           <Route path="/animals-match-mate" element={<AnimalsGender />} />
+          <Route path="/synonyms" element={<Synonyms />} />
           <Route path={"*"} element={<NotFound />} />
         </Routes>
       </Suspense>
