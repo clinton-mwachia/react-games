@@ -19,7 +19,7 @@ const Home = () => {
     { to: "/match-food-category", name: "match-food-category" },
     { to: "/match-currency", name: "match-currency" },
     { to: "/riddles", name: "riddles" },
-    { to: "/young-ones-animals", name: "young-ones-animals" },
+    { to: "/young-ones-animals", name: "match-animal-young-ones" },
     { to: "/animals-match-mate", name: "match mate" },
   ];
   return (
