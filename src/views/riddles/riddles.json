@@ -1,349 +1,534 @@
 {
   "riddles": [
     {
-      "question": "What has a neck but no head?",
-      "options": ["A bottle", "A snake", "A pencil", "A coin"],
-      "correctAnswer": "A bottle"
+      "question": "What has an eye but cannot see?",
+      "options": ["A needle", "A button", "A potato", "A key"],
+      "answer": "A needle"
     },
     {
-      "question": "What has to be broken before you can use it?",
-      "options": ["An egg", "A stick", "A mirror", "A window"],
-      "correctAnswer": "An egg"
+      "question": "I am always coming, but never arrive. What am I?",
+      "options": ["Tomorrow", "Night", "Spring", "The future"],
+      "answer": "Tomorrow"
     },
     {
-      "question": "What can you catch but not throw?",
-      "options": ["A cold", "A ball", "A cat", "A book"],
-      "correctAnswer": "A cold"
+      "question": "What has a neck without a head, a body without legs, and can be found in the sea?",
+      "options": ["A bottle", "An island", "A boat", "A jellyfish"],
+      "answer": "A bottle"
     },
     {
-      "question": "What has a face and two hands but no arms or legs?",
-      "options": ["A clock", "A person", "A doll", "A mirror"],
-      "correctAnswer": "A clock"
+      "question": "What gets wetter the more it dries?",
+      "options": ["A towel", "A sponge", "A beach", "A desert"],
+      "answer": "A towel"
     },
     {
-      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
-      "options": [
-        "The letter 'm'",
-        "The number '2'",
-        "The word 'time'",
-        "The sound of silence"
-      ],
-      "correctAnswer": "The letter 'm'"
+      "question": "What has a head and a foot, but no legs?",
+      "options": ["A bed", "A mountain", "A nail", "A river"],
+      "answer": "A bed"
     },
     {
-      "question": "What has a thumb and four fingers but is not alive?",
-      "options": ["A glove", "A hand", "A mitten", "A puppet"],
-      "correctAnswer": "A glove"
+      "question": "What has to be filled before you can empty it?",
+      "options": ["A cup", "A bag", "A room", "A pool"],
+      "answer": "A cup"
     },
     {
-      "question": "What has keys but can't open locks?",
-      "options": ["A piano", "A map", "A door", "A book"],
-      "correctAnswer": "A piano"
+      "question": "I am light as a feather, but the strongest person can't hold me for five minutes. What am I?",
+      "options": ["Your breath", "A cloud", "A dream", "A thought"],
+      "answer": "Your breath"
     },
     {
-      "question": "What can travel around the world while staying in a corner?",
-      "options": ["A stamp", "A plane", "A person", "A ball"],
-      "correctAnswer": "A stamp"
-    },
-    {
-      "question": "What has many keys but can't open a single lock?",
-      "options": ["A keyboard", "A piano", "A lock", "A puzzle"],
-      "correctAnswer": "A keyboard"
-    },
-    {
-      "question": "What runs around the whole yard without moving?",
-      "options": ["A fence", "A tree", "A shadow", "A river"],
-      "correctAnswer": "A fence"
-    },
-    {
-      "question": "What has one eye but can't see?",
-      "options": ["A needle", "A camera", "A potato", "A storm"],
-      "correctAnswer": "A needle"
-    },
-    {
-      "question": "What can you hold in your right hand but never in your left hand?",
-      "options": ["Your left hand", "A mirror", "A secret", "A phone"],
-      "correctAnswer": "A mirror"
+      "question": "What has cities, but no houses; has mountains, but no trees; and has water, but no fish?",
+      "options": ["A map", "A painting", "A globe", "A dream"],
+      "answer": "A map"
     },
     {
       "question": "What is full of holes but still holds water?",
-      "options": ["A sponge", "A bottle", "A net", "A sieve"],
-      "correctAnswer": "A sponge"
+      "options": ["A sponge", "A net", "A sieve", "A colander"],
+      "answer": "A sponge"
+    },
+    {
+      "question": "What has one eye but cannot blink?",
+      "options": ["A needle", "A button", "A camera", "A telescope"],
+      "answer": "A needle"
+    },
+    {
+      "question": "What has to be broken before you can use it?",
+      "options": ["An egg", "A glowstick", "A piñata", "A promise"],
+      "answer": "An egg"
+    },
+    {
+      "question": "What has a neck without a head, a body without legs, and is always in the water?",
+      "options": ["A bottle", "An island", "A peninsula", "A fish"],
+      "answer": "A bottle"
+    },
+    {
+      "question": "What has keys but no locks, space but no room, and you can enter but never leave?",
+      "options": ["A keyboard", "A website", "A dictionary", "A dream"],
+      "answer": "A keyboard"
+    },
+    {
+      "question": "What has an eye but cannot see, a tongue but cannot speak, and a head but cannot think?",
+      "options": ["A potato", "A needle", "A button", "A statue"],
+      "answer": "A needle"
+    },
+    {
+      "question": "What is always coming but never arrives?",
+      "options": ["Tomorrow", "Spring", "The future", "Night"],
+      "answer": "Tomorrow"
+    },
+    {
+      "question": "What has a mouth but never speaks, and a bed but never sleeps?",
+      "options": ["A river", "A cave", "A road", "A stream"],
+      "answer": "A river"
+    },
+    {
+      "question": "What has a neck without a head, a body without legs, and can be worn?",
+      "options": ["A shirt", "A scarf", "A belt", "A necklace"],
+      "answer": "A shirt"
+    },
+    {
+      "question": "What has leaves, but is not a plant?",
+      "options": ["A book", "A table", "A door", "A window"],
+      "answer": "A book"
+    },
+    {
+      "question": "What has a bank but no money, and a bed but no sleep?",
+      "options": ["A river", "A cloud", "A forest", "A park"],
+      "answer": "A river"
+    },
+    {
+      "question": "What has a spine but no bones, and can tell you a story?",
+      "options": ["A book", "A movie", "A song", "A play"],
+      "answer": "A book"
+    },
+    {
+      "question": "What has a head but no brain, and a tongue but cannot taste?",
+      "options": ["A shoe", "A hammer", "An axe", "A nail"],
+      "answer": "A shoe"
+    },
+    {
+      "question": "What gets smaller the more you use it?",
+      "options": ["A candle", "A soap bar", "An eraser", "A pencil"],
+      "answer": "A candle"
+    },
+    {
+      "question": "What has a voice but never speaks, and a bed but never sleeps?",
+      "options": ["A river", "An alarm clock", "A bell", "A radio"],
+      "answer": "An alarm clock"
+    },
+    {
+      "question": "You can hold it in your hand, but you can't own it. What is it?",
+      "options": ["Your breath", "A shadow", "A dream", "A thought"],
+      "answer": "Your breath"
+    },
+    {
+      "question": "What has an eye but cannot cry, and a wing but cannot fly?",
+      "options": ["A needle", "A button", "A pin", "A screw"],
+      "answer": "A needle"
+    },
+    {
+      "question": "What is always running but never gets tired?",
+      "options": ["A river", "A clock", "Your heart", "The wind"],
+      "answer": "A river"
+    },
+    {
+      "question": "What has a head and a tail, but no body?",
+      "options": ["A coin", "A comma", "A key", "A paragraph"],
+      "answer": "A coin"
+    },
+    {
+      "question": "What has keys but cannot open doors, space but no room, and you can enter but never leave?",
+      "options": ["A website", "A keyboard", "A map", "A book"],
+      "answer": "A website"
+    },
+    {
+      "question": "What has one voice but speaks in many tongues?",
+      "options": ["A dictionary", "A book", "A translator", "A teacher"],
+      "answer": "A dictionary"
+    },
+    {
+      "question": "What has a neck but no head, a body but no legs, and can be found on a shirt?",
+      "options": ["A collar", "A button", "A pocket", "A sleeve"],
+      "answer": "A collar"
+    },
+    {
+      "question": "What has cities, but no houses; mountains, but no trees; and water, but no fish?",
+      "options": ["A globe", "A painting", "A map", "A dream"],
+      "answer": "A globe"
+    },
+    {
+      "question": "What breaks without a sound?",
+      "option": ["A heart", "A promise", "Silence", "The trust"],
+      "answer": "A promise"
+    },
+    {
+      "question": "What has to be passed before it can be used?",
+      "options": ["Time", "Information", "Knowledge", "A test"],
+      "answer": "Time"
+    },
+    {
+      "question": "What has an eye but cannot see, and a head but cannot think?",
+      "options": ["A potato", "A needle", "A button", "A nail"],
+      "answer": "A potato"
+    },
+    {
+      "question": "What has a neck like a bottle, but a body like a pear?",
+      "options": ["A light bulb", "A vase", "A guitar", "A watering can"],
+      "answer": "A watering can"
+    },
+    {
+      "question": "What gets sharper the more you use it?",
+      "options": ["A knife", "A pencil", "A question", "Your mind"],
+      "answer": "Your mind"
+    },
+    {
+      "question": "What has a beginning, a middle, and an end, but no voice?",
+      "options": ["A story", "A song", "A journey", "A life"],
+      "answer": "A story"
+    },
+    {
+      "question": "What has hands but cannot clap, and a face but cannot smile?",
+      "options": ["A clock", "A watch", "A doll", "A puppet"],
+      "answer": "A clock"
+    },
+    {
+      "question": "What is always coming closer but never arrives?",
+      "options": ["Tomorrow", "Death", "The future", "The next moment"],
+      "answer": "The next moment"
+    },
+    {
+      "question": "What has a neck but no head, a body but no legs, and is always moving?",
+      "options": ["A cloud", "A river", "Smoke", "A flag"],
+      "answer": "A cloud"
+    },
+    {
+      "question": "What has a tongue but cannot taste, and a bed but never sleeps?",
+      "options": ["A shoe", "A road", "A river", "A lake"],
+      "answer": "A shoe"
+    },
+    {
+      "question": "What has keys but can't open locks?",
+      "options": ["A keyboard", "A treasure chest", "A piano", "A map"],
+      "answer": "A piano"
+    },
+    {
+      "question": "What has cities but no houses, forests but no trees, and water but no fish?",
+      "options": ["A map", "A painting", "A dream", "A globe"],
+      "answer": "A forest"
+    },
+    {
+      "question": "What has a head, a foot, and four legs, but cannot walk?",
+      "options": ["A bed", "A table", "A chair", "A couch"],
+      "answer": "A bed"
+    },
+    {
+      "question": "What has keys but opens no doors, space but holds no objects, and enters the mind but has no body?",
+      "options": ["An idea", "A thought", "A dream", "A memory"],
+      "answer": "An idea"
+    },
+    {
+      "question": "What tells you the truth but has no voice?",
+      "options": ["A mirror", "A clock", "A calendar", "A map"],
+      "answer": "A mirror"
+    },
+    {
+      "question": "What has one eye but cannot cry, and a web but cannot spin?",
+      "options": ["A needle", "A button", "A camera", "A telescope"],
+      "answer": "A needle"
+    },
+    {
+      "question": "What is lighter than a feather, but the strongest person can't hold it for five minutes?",
+      "options": ["Your breath", "A thought", "A dream", "A feeling"],
+      "answer": "Your breath"
+    },
+    {
+      "question": "What has an eye but cannot see, a back but cannot turn, and a spine but no bones?",
+      "options": ["A book", "A needle", "A button", "A key"],
+      "answer": "A book"
+    },
+    {
+      "question": "What has a neck without a head, a body without legs, and is found on a bottle?",
+      "options": ["A label", "A cap", "A cork", "A neck ring"],
+      "answer": "A label"
+    },
+    {
+      "question": "What has pages but no words, a spine but no bones, and tells a story through pictures?",
+      "options": ["A comic book", "A photo album", "A painting", "A map"],
+      "answer": "A comic book"
+    },
+    {
+      "question": "What gets heavier the more you take away from it?",
+      "options": ["A hole", "Silence", "Debt", "Knowledge"],
+      "answer": "A hole"
+    },
+    {
+      "question": "What has a voice but never speaks, and tells a story without words?",
+      "options": ["Music", "A picture", "A movie", "A dance"],
+      "answer": "Music"
+    },
+    {
+      "question": "What has to be built before you can climb it?",
+      "options": ["A mountain", "A wall", "A ladder", "A dream"],
+      "answer": "A ladder"
+    },
+    {
+      "question": "What has an eye but cries all the time?",
+      "options": ["An onion", "A cloud", "A raindrop", "A river"],
+      "answer": "An onion"
+    },
+    {
+      "question": "What has to be caught before it can be thrown?",
+      "options": ["A ball", "A frisbee", "A fish", "A cold"],
+      "answer": "A ball"
+    },
+    {
+      "question": "What has a neck but no head, a body but no legs, and is always on time?",
+      "options": ["A watch", "An hourglass", "A sundial", "A calendar"],
+      "answer": "A watch"
+    },
+    {
+      "question": "What has cities but no houses, mountains but no trees, and water but no fish? (Bonus: Different answer)",
+      "options": ["A puzzle", "A game board", "A model train set", "A diagram"],
+      "answer": "A puzzle"
+    },
+    {
+      "question": "The more you take, the more you leave behind. What am I?",
+      "options": ["Footsteps", "Time", "Water", "Breaths"],
+      "answer": "Footsteps"
+    },
+    {
+      "question": "What has a mouth but never speaks, a bed but never sleeps, and carries many ships?",
+      "options": ["A river", "A harbor", "An ocean", "A lake"],
+      "answer": "A river"
+    },
+    {
+      "question": "What has one foot in the future, one foot in the past, and is always moving?",
+      "options": ["Time", "The present moment", "A clock", "A calendar"],
+      "answer": "Time"
+    },
+    {
+      "question": "What has many keys but cannot open any doors?",
+      "options": [
+        "A piano",
+        "A typewriter",
+        "A computer keyboard",
+        "A telephone"
+      ],
+      "answer": "A piano"
+    },
+    {
+      "question": "What 8 letter word can have a letter taken away and it still makes a word?",
+      "options": ["Starting", "Painters", "Coalesce", "Gradients"],
+      "answer": "Starting"
+    },
+    {
+      "question": "What has a head and a body, but no legs?",
+      "options": ["A pin", "A bottle", "A screw", "A nail"],
+      "answer": "A pin"
+    },
+    {
+      "question": "What has a neck like a bottle but a body like a bell?",
+      "options": ["A trumpet", "A watering can", "A funnel", "A vase"],
+      "answer": "A trumpet"
+    },
+    {
+      "question": "What has an eye but cannot see, a tongue but cannot taste, and a spine but no bones?",
+      "options": ["A book", "A needle", "A button", "A key"],
+      "answer": "A needle"
+    },
+    {
+      "question": "You throw away the outside and keep the inside. What is it?",
+      "options": ["A banana", "An orange", "A coconut", "A peanut"],
+      "answer": "A peanut"
+    },
+    {
+      "question": "What has a voice but never speaks, and can be heard all over the world?",
+      "options": ["The wind", "The ocean", "Thunder", "Music"],
+      "answer": "The wind"
     },
     {
       "question": "What has a head, a tail, is brown, and has no legs?",
-      "options": ["A coin", "A snake", "A dog", "A horse"],
-      "correctAnswer": "A coin"
+      "options": ["A coin", "A snake", "A dog", "A worm"],
+      "answer": "A coin"
+    },
+    {
+      "question": "David's father has three sons: Snap, Crackle, and ?",
+      "options": ["Snap", "Crackle", "David", "Pop"],
+      "answer": "David"
+    },
+    {
+      "question": "What can travel around the world while staying in a corner?",
+      "options": ["A ball", "A stamp", "An airplane", "A letter"],
+      "answer": "A stamp"
     },
     {
       "question": "What gets wetter as it dries?",
-      "options": ["A towel", "A sponge", "Watermelon", "Soap"],
-      "correctAnswer": "A towel"
+      "options": ["A towel", "A sponge", "Sand", "Water"],
+      "answer": "A towel"
     },
     {
-      "question": "What comes down but never goes up?",
-      "options": ["Rain", "A ball", "A feather", "A tree"],
-      "correctAnswer": "Rain"
-    },
-    {
-      "question": "What can you break, even if you never pick it up or touch it?",
-      "options": ["A promise", "A mirror", "A table", "A vase"],
-      "correctAnswer": "A promise"
-    },
-    {
-      "question": "What belongs to you but is used more by others?",
-      "options": ["Your name", "Your money", "Your time", "Your house"],
-      "correctAnswer": "Your name"
-    },
-    {
-      "question": "What has keys but can't open locks?",
-      "options": ["A keyboard", "A computer", "A piano", "A calculator"],
-      "correctAnswer": "A piano"
-    },
-    {
-      "question": "What can you keep after giving it to someone?",
-      "options": ["A cold", "A promise", "A secret", "A hug"],
-      "correctAnswer": "A promise"
-    },
-    {
-      "question": "What has a face and two hands but no arms or legs?",
-      "options": ["A clock", "A person", "A doll", "A mirror"],
-      "correctAnswer": "A clock"
-    },
-    {
-      "question": "What is always in front of you but can't be seen?",
-      "options": ["The future", "The past", "The air", "The wind"],
-      "correctAnswer": "The future"
-    },
-    {
-      "question": "What gets bigger the more you take away?",
-      "options": ["A hole", "A box", "A pillow", "A cake"],
-      "correctAnswer": "A hole"
-    },
-    {
-      "question": "What has a head, a tail, is brown, and has no legs?",
-      "options": ["A penny", "A snake", "A book", "A coin"],
-      "correctAnswer": "A penny"
-    },
-    {
-      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "question": "Can you name three consecutive days without using the words Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?",
       "options": [
-        "The letter 'm'",
-        "The number '2'",
-        "The word 'time'",
-        "The sound of silence"
+        "Yesterday, Today, and Tomorrow",
+        "Morning, Noon, and Night",
+        "Dawn, Daytime, and Dusk",
+        "Sunrise, Midday, and Sunset"
       ],
-      "correctAnswer": "The letter 'm'"
-    },
-    {
-      "question": "What is so fragile that saying its name breaks it?",
-      "options": ["Silence", "Glass", "A mirror", "A promise"],
-      "correctAnswer": "Silence"
-    },
-    {
-      "question": "What has a head and a tail but no body?",
-      "options": ["A coin", "A snake", "A fish", "A person"],
-      "correctAnswer": "A coin"
-    },
-    {
-      "question": "What can you catch but not throw?",
-      "options": ["A cold", "A ball", "A cat", "A book"],
-      "correctAnswer": "A cold"
-    },
-    {
-      "question": "What comes down but never goes up?",
-      "options": ["Rain", "A ball", "A feather", "A tree"],
-      "correctAnswer": "Rain"
-    },
-    {
-      "question": "What can you break, even if you never pick it up or touch it?",
-      "options": ["A promise", "A mirror", "A table", "A vase"],
-      "correctAnswer": "A promise"
-    },
-    {
-      "question": "What belongs to you but is used more by others?",
-      "options": ["Your name", "Your money", "Your time", "Your house"],
-      "correctAnswer": "Your name"
-    },
-    {
-      "question": "What has a head and a tail but no body?",
-      "options": ["A coin", "A snake", "A fish", "A person"],
-      "correctAnswer": "A coin"
+      "answer": "Yesterday, Today, and Tomorrow"
     },
     {
       "question": "What has a neck but no head?",
-      "options": ["A bottle", "A snake", "A pencil", "A coin"],
-      "correctAnswer": "A bottle"
-    },
-    {
-      "question": "What can you hold in your right hand but never in your left hand?",
-      "options": ["Your left hand", "A mirror", "A secret", "A phone"],
-      "correctAnswer": "A mirror"
-    },
-    {
-      "question": "What has to be broken before you can use it?",
-      "options": ["An egg", "A stick", "A mirror", "A window"],
-      "correctAnswer": "An egg"
-    },
-    {
-      "question": "What has keys but can't open locks?",
-      "options": ["A piano", "A map", "A door", "A book"],
-      "correctAnswer": "A piano"
-    },
-    {
-      "question": "What can you keep after giving it to someone?",
-      "options": ["A cold", "A promise", "A secret", "A hug"],
-      "correctAnswer": "A promise"
-    },
-    {
-      "question": "What gets bigger the more you take away?",
-      "options": ["A hole", "A box", "A pillow", "A cake"],
-      "correctAnswer": "A hole"
-    },
-    {
-      "question": "What has a face and two hands but no arms or legs?",
-      "options": ["A clock", "A person", "A doll", "A mirror"],
-      "correctAnswer": "A clock"
-    },
-    {
-      "question": "What is always in front of you but can't be seen?",
-      "options": ["The future", "The past", "The air", "The wind"],
-      "correctAnswer": "The future"
-    },
-    {
-      "question": "What has a head, a tail, is brown, and has no legs?",
-      "options": ["A penny", "A snake", "A book", "A coin"],
-      "correctAnswer": "A penny"
+      "options": ["A bottle", "A shirt", "A river", "A guitar"],
+      "answer": "A bottle"
     },
     {
       "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
       "options": [
-        "The letter 'm'",
-        "The number '2'",
-        "The word 'time'",
-        "The sound of silence"
+        "the letter 'm'",
+        "the letter 'o'",
+        "the letter 'i'",
+        "the letter 'y'"
       ],
-      "correctAnswer": "The letter 'm'"
+      "answer": "the letter 'm'"
     },
     {
-      "question": "What is so fragile that saying its name breaks it?",
-      "options": ["Silence", "Glass", "A mirror", "A promise"],
-      "correctAnswer": "Silence"
+      "question": "What has teeth but cannot bite?",
+      "options": ["A comb", "A saw", "A zipper", "A mouth"],
+      "answer": "A comb"
     },
     {
-      "question": "What has a head and a tail but no body?",
-      "options": ["A coin", "A snake", "A fish", "A person"],
-      "correctAnswer": "A coin"
+      "question": "What has many keys but can't open a single lock?",
+      "options": ["A piano", "A computer", "A lock", "A map"],
+      "answer": "A piano"
     },
     {
-      "question": "What can you catch but not throw?",
-      "options": ["A cold", "A ball", "A cat", "A book"],
-      "correctAnswer": "A cold"
+      "question": "What has words but never speaks?",
+      "options": ["A book", "A mouth", "A clock", "A dictionary"],
+      "answer": "A book"
     },
     {
-      "question": "What comes down but never goes up?",
-      "options": ["Rain", "A ball", "A feather", "A tree"],
-      "correctAnswer": "Rain"
+      "question": "What has one eye but can't see?",
+      "options": ["A needle", "A storm", "A potato", "A tornado"],
+      "answer": "A needle"
     },
     {
-      "question": "What can you break, even if you never pick it up or touch it?",
-      "options": ["A promise", "A mirror", "A table", "A vase"],
-      "correctAnswer": "A promise"
+      "question": "What has four eyes but can't see?",
+      "options": ["A pair of glasses", "A potato", "A storm", "A picture"],
+      "answer": "A pair of glasses"
     },
     {
-      "question": "What belongs to you but is used more by others?",
-      "options": ["Your name", "Your money", "Your time", "Your house"],
-      "correctAnswer": "Your name"
+      "question": "Where does Christmas come before Thanksgiving?",
+      "options": ["Calendar", "Dictionary", "Alphabet", "Book"],
+      "answer": "Dictionary"
     },
     {
-      "question": "What has a head and a tail but no body?",
-      "options": ["A coin", "A snake", "A fish", "A person"],
-      "correctAnswer": "A coin"
+      "question": "What has a thumb and four fingers but is not alive?",
+      "options": ["A glove", "A hand", "A glove", "A fish"],
+      "answer": "A glove"
     },
     {
-      "question": "What has a neck but no head?",
-      "options": ["A bottle", "A snake", "A pencil", "A coin"],
-      "correctAnswer": "A bottle"
-    },
-    {
-      "question": "What can you hold in your right hand but never in your left hand?",
-      "options": ["Your left hand", "A mirror", "A secret", "A phone"],
-      "correctAnswer": "A mirror"
-    },
-    {
-      "question": "What has to be broken before you can use it?",
-      "options": ["An egg", "A stick", "A mirror", "A window"],
-      "correctAnswer": "An egg"
-    },
-    {
-      "question": "What has keys but can't open locks?",
-      "options": ["A piano", "A map", "A door", "A book"],
-      "correctAnswer": "A piano"
-    },
-    {
-      "question": "What can you keep after giving it to someone?",
-      "options": ["A cold", "A promise", "A secret", "A hug"],
-      "correctAnswer": "A promise"
-    },
-    {
-      "question": "What gets bigger the more you take away?",
-      "options": ["A hole", "A box", "A pillow", "A cake"],
-      "correctAnswer": "A hole"
+      "question": "What has hands but can't clap?",
+      "options": ["A clock", "A robot", "A person", "A tree"],
+      "answer": "A clock"
     },
     {
       "question": "What has a face and two hands but no arms or legs?",
-      "options": ["A clock", "A person", "A doll", "A mirror"],
-      "correctAnswer": "A clock"
+      "options": ["A clock", "A mirror", "A glove", "A painting"],
+      "answer": "A clock"
     },
     {
-      "question": "What is always in front of you but can't be seen?",
-      "options": ["The future", "The past", "The air", "The wind"],
-      "correctAnswer": "The future"
+      "question": "What has 88 keys, but can't even open a single door?",
+      "options": ["A piano", "A typewriter", "A keyboard", "A calculator"],
+      "answer": "A piano"
     },
     {
-      "question": "What has a head, a tail, is brown, and has no legs?",
-      "options": ["A penny", "A snake", "A book", "A coin"],
-      "correctAnswer": "A penny"
-    },
-    {
-      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "question": "Why is Europe like a frying pan?",
       "options": [
-        "The letter 'm'",
-        "The number '2'",
-        "The word 'time'",
-        "The sound of silence"
+        "Because it has Greece at the bottom.",
+        "Because it's hot and sunny.",
+        "Because it's full of delicious food.",
+        "Because it's shaped like a circle."
       ],
-      "correctAnswer": "The letter 'm'"
+      "answer": "Because it has Greece at the bottom."
     },
     {
-      "question": "What is so fragile that saying its name breaks it?",
-      "options": ["Silence", "Glass", "A mirror", "A promise"],
-      "correctAnswer": "Silence"
+      "question": "What We Caught We Threw Away, What We Didn’t Catch We Kept",
+      "options": ["Lice", "Fish", "Butterflies", "Frogs"],
+      "answer": "Lice"
     },
     {
-      "question": "What has a head and a tail but no body?",
-      "options": ["A coin", "A snake", "A fish", "A person"],
-      "correctAnswer": "A coin"
+      "question": "What room do ghosts avoid?",
+      "options": [
+        "The bathroom",
+        "The kitchen",
+        "The bedroom",
+        "The living room"
+      ],
+      "answer": "The living room"
     },
     {
-      "question": "What can you catch but not throw?",
-      "options": ["A cold", "A ball", "A cat", "A book"],
-      "correctAnswer": "A cold"
+      "question": "I make two people out of one. What am I?",
+      "options": ["A mirror", "A twin", "A shadow", "A photograph"],
+      "answer": "A mirror"
     },
     {
-      "question": "What comes down but never goes up?",
-      "options": ["Rain", "A ball", "A feather", "A tree"],
-      "correctAnswer": "Rain"
+      "question": "What is so fragile that just saying its name breaks it?",
+      "options": ["Glass", "A mirror", "Silence", "A secret"],
+      "answer": "Silence"
     },
     {
-      "question": "What can you break, even if you never pick it up or touch it?",
-      "options": ["A promise", "A mirror", "A table", "A vase"],
-      "correctAnswer": "A promise"
+      "question": "What can jump higher than a building?",
+      "options": ["A kangaroo", "A bird", "A frog", "Anything"],
+      "answer": "Anything"
     },
     {
-      "question": "What belongs to you but is used more by others?",
-      "options": ["Your name", "Your money", "Your time", "Your house"],
-      "correctAnswer": "Your name"
+      "question": "You live in a one story house made entirely of redwood. What color would the stairs be?",
+      "options": ["Redwood", "None", "Brown", "Red"],
+      "answer": "None"
+    },
+    {
+      "question": "What has six faces, but does not wear makeup, has twenty-one eyes, but cannot see?",
+      "options": ["A die (dice)", "A cube", "A box", "A book"],
+      "answer": "A die (dice)"
+    },
+    {
+      "question": "Who can shave 25 times a day but still have a beard?",
+      "options": ["A barber", "A soldier", "A baby", "A chef"],
+      "answer": "A barber"
+    },
+    {
+      "question": "A boy and a doctor were fishing. The boy is the doctor’s son but the doctor is not the boy’s father. Who is the doctor?",
+      "options": [
+        "The boy's father",
+        "The boy's uncle",
+        "The boy's mother",
+        "The boy's grandfather"
+      ],
+      "answer": "The boy's mother"
+    },
+    {
+      "question": "I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "options": ["Fire", "Plant", "Cloud", "Sand"],
+      "answer": "Fire"
+    },
+    {
+      "question": "What is more useful when it is broken?",
+      "options": ["A mirror", "A vase", "An egg", "A plate"],
+      "answer": "An egg."
+    },
+    {
+      "riddle": "There is a house. A person enters this house blind but exits it seeing. What is it?",
+      "options": ["A hospital", "A school", "A library", "A museum"],
+      "answer": "A school"
+    },
+    {
+      "riddle": "What is seen in the middle of March and April that can’t be seen at the beginning or end of either month?",
+      "options": ["The letter 'R'", "A rainbow", "A rabbit", "A river"],
+      "answer": "The letter 'R'"
+    },
+    {
+      "question": "Mr. and Mrs. Mustard have six daughters and each daughter has one brother. How many people are in the Mustard family?",
+      "options": ["Seven", "Eight", "Nine", "Ten"],
+      "answer": "Nine"
     }
   ]
 }
