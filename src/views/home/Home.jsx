@@ -22,6 +22,7 @@ const Home = () => {
     { to: "/young-ones-animals", name: "match-animal-young-ones" },
     { to: "/animals-match-mate", name: "match mate" },
     { to: "/synonyms", name: "synonyms" },
+    { to: "/eng-to-kis", name: "english to kiswahili" },
   ];
   return (
     <Box textAlign="center" fontSize="xl">
