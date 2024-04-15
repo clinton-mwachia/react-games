@@ -11,6 +11,7 @@ import {
   Center,
 } from "@chakra-ui/react";
 import { FaWhatsapp } from "react-icons/fa";
+import { origin } from "../../config";
 import currencyData from "./currencies.json";
 import { Link } from "react-router-dom";
 
@@ -75,9 +76,9 @@ const MatchCurrencies = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/match-county-currencies";
+    const game = `${origin}/match-currency`;
     const message = `
-    Hellow Friend! I've been playing this awesome game called Matching Currencies, and
+    Hellow Friend! I've been playing this awesome game and
     I just scored ${score}/${currencies.length} points! Think you can beat me? Give 
     it a try and let's see who comes out on top! Play here: ${game}
     `;

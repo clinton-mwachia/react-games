@@ -11,6 +11,7 @@ import {
   AbsoluteCenter,
 } from "@chakra-ui/react";
 import foodsData from "./foodsData.json";
+import { origin } from "../../config";
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -75,9 +76,9 @@ const MatchFoodCategory = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/match-food-category";
+    const game = `${origin}/match-food-category`;
     const message = `
-    Hellow Friend! I've been playing this awesome game called Match Food, and
+    Hellow Friend! I've been playing this awesome game and
     I just scored ${score}/${foods.length} points! Think you can beat me? Give 
     it a try and let's see who comes out on top! Play here: ${game}
     `;

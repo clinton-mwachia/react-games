@@ -9,6 +9,7 @@ import {
   AbsoluteCenter,
   Heading,
 } from "@chakra-ui/react";
+import { origin } from "../../config";
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 import animalsData from "./animals.json";
@@ -34,9 +35,9 @@ const AnimalsGender = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/animals-match-mate";
+    const game = `${origin}/animals-match-mate`;
     const message = `
-            Hellow Friend! I've been playing this awesome game, and
+            Hellow Friend! I've been playing this awesome game and
             I just scored ${score}/${animals.length} points! Think you can beat me? Give 
             it a try and let's see who comes out on top! Play here: ${game}`;
     const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;

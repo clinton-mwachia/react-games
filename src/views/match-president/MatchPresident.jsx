@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import presidentsData from "./presidents.json";
 import { FaWhatsapp } from "react-icons/fa";
+import { origin } from "../../config";
 import { Link } from "react-router-dom";
 
 const MatchPresident = () => {
@@ -75,9 +76,9 @@ const MatchPresident = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/match-president";
+    const game = `${origin}/match-president`;
     const message = `
-    Hellow Friend! I've been playing this awesome game called Match President, and
+    Hellow Friend! I've been playing this awesome game and
     I just scored ${score}/${presidents.length} points! Think you can beat me? Give 
     it a try and let's see who comes out on top! Play here: ${game}
     `;

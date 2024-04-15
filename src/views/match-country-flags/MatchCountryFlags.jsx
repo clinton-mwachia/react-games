@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { FaWhatsapp } from "react-icons/fa";
 import flagsData from "./flags.json";
+import { origin } from "../../config";
 import { Link } from "react-router-dom";
 
 const MatchCountryFlags = () => {
@@ -76,9 +77,9 @@ const MatchCountryFlags = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/match-country-flags";
+    const game = `${origin}/match-country-flags`;
     const message = `
-    Hellow Friend! I've been playing this awesome game called Matching Flags, and
+    Hellow Friend! I've been playing this awesome game and
     I just scored ${score}/${flags.length} points! Think you can beat me? Give 
     it a try and let's see who comes out on top! Play here: ${game}
     `;

@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
+import { origin } from "../../config";
 import engtokisData from "./engToKis.json";
 
 const EnglistToKiswahili = () => {
@@ -40,9 +41,9 @@ const EnglistToKiswahili = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/eng-to-kis";
+    const game = `${origin}/eng-to-kis`;
     const message = `
-        Hellow Friend! I've been playing this awesome game, and
+        Hellow Friend! I've been playing this awesome game and
         I just scored ${score}/${words.length} points! Think you can beat me? Give 
         it a try and let's see who comes out on top! Play here: ${game}`;
     const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;

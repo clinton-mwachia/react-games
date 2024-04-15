@@ -10,6 +10,7 @@ import {
   AbsoluteCenter,
   Heading,
 } from "@chakra-ui/react";
+import { origin } from "../../config";
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 import synonymsData from "./synonyms.json";
@@ -40,9 +41,9 @@ const Synonyms = () => {
   };
 
   const handleWhatsappShareButton = () => {
-    const game = "http://localhost:5173/synonyms";
+    const game = `${origin}/synonyms`;
     const message = `
-        Hellow Friend! I've been playing this awesome game, and
+        Hellow Friend! I've been playing this awesome game and
         I just scored ${score}/${synonyms.length} points! Think you can beat me? Give 
         it a try and let's see who comes out on top! Play here: ${game}`;
     const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;

@@ -32,6 +32,7 @@ const Home = () => {
     { to: "/synonyms", name: "synonyms" },
     { to: "/eng-to-kis", name: "english to kiswahili" },
   ];
+
   return (
     <Box textAlign="center" fontSize="xl">
       {/* Header */}
