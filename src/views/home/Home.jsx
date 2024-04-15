@@ -1,6 +1,14 @@
 import { Box } from "@chakra-ui/react";
-import { SimpleGrid, Heading, Text, Button, Container } from "@chakra-ui/react";
+import {
+  SimpleGrid,
+  Heading,
+  Text,
+  Button,
+  Container,
+  Center,
+} from "@chakra-ui/react";
 import { useEffect } from "react";
+import { ArrowDownIcon } from "@chakra-ui/icons";
 
 const Home = () => {
   useEffect(() => {
@@ -51,7 +59,7 @@ const Home = () => {
             <Button
               key={index}
               colorScheme="blue"
-              size="lg"
+              size="md"
               as={"a"}
               href={`${game.to}`}
             >
@@ -59,6 +67,18 @@ const Home = () => {
             </Button>
           ))}
         </SimpleGrid>
+        <Center mt={3}>
+          <Box boxShadow={"lg"} padding={5} mt={5}>
+            <Heading>Support my work</Heading>
+            <Text>You can support my work by donating</Text>
+            <Text color={"green.400"}>Lipa Na mpesa</Text>
+            <ArrowDownIcon />
+            <Text color={"green.400"}>Paybil [Business No: 522533]</Text>
+            <ArrowDownIcon />
+            <Text color={"green.400"}>Account [A/C No: 7839440]</Text>
+            <Text mt={2}>Thank you for the support</Text>
+          </Box>
+        </Center>
       </Container>
     </Box>
   );
