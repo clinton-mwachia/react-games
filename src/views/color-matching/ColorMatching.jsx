@@ -21,7 +21,7 @@ const ColorMatching = () => {
 
   useEffect(() => {
     // update page title
-    document.title = "Game-Hub/color matching";
+    document.title = "PAYL";
     //generate target color on mount
     generateTargetColor();
     // start count down timer

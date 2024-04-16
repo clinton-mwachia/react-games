@@ -12,7 +12,7 @@ import { ArrowDownIcon } from "@chakra-ui/icons";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Game-Hub";
+    document.title = "PAYL";
   }, []);
   const games = [
     { to: "/color-matching", name: "color-matching" },
@@ -38,7 +38,7 @@ const Home = () => {
       {/* Header */}
       <Box bg="blue.500" p={4} color="white">
         <Heading as="h1" size="2xl">
-          Welcome to GameHub!
+          Welcome to PAYL!
         </Heading>
       </Box>
       {/* Hero Section */}
@@ -47,7 +47,7 @@ const Home = () => {
           Play Your Favorite Games As you Learn
         </Heading>
         <Text fontSize="lg">
-          Your ultimate destination for endless online learning.
+          Your ultimate destination for endless learning.
         </Text>
       </Container>
       {/* Featured Games Section */}
