@@ -59,8 +59,9 @@ const GuessNumber = () => {
         justifyContent={"center"}
         textAlign={"center"}
         alignItems={"center"}
-        mt={{ md: 30, sm: 50 }}
-        p={10}
+        borderColor={"green"}
+        boxShadow={"lg"}
+        p={1}
       >
         <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
           GAMING HUB

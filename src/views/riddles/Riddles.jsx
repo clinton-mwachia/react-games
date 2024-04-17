@@ -72,9 +72,11 @@ const Riddles = () => {
         justifyContent={"center"}
         textAlign={"center"}
         alignItems={"center"}
-        p={2}
+        p={1}
         border={"1px"}
         borderRadius={"10px"}
+        borderColor={"green"}
+        boxShadow={"lg"}
       >
         <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
           GAMING HUB

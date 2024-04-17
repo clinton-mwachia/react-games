@@ -6,9 +6,10 @@ import {
   Button,
   Heading,
   Box,
+  Switch,
+  Center,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
-import { Switch, Center } from "@chakra-ui/react";
 import { ArrowBackIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 
@@ -97,7 +98,8 @@ const ColorMatching = () => {
         justifyContent={"center"}
         textAlign={"center"}
         alignItems={"center"}
-        p={10}
+        borderColor={"green"}
+        boxShadow={"lg"}
       >
         <Heading
           bgGradient="linear(to-l, #7928CA, #FF0080)"

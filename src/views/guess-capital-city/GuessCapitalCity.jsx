@@ -72,10 +72,10 @@ const GuessCapitalCity = () => {
         justifyContent={"center"}
         textAlign={"center"}
         alignItems={"center"}
-        p={10}
         border={"2px"}
         borderRadius={"10px"}
-        marginTop={"10"}
+        borderColor={"green"}
+        boxShadow={"lg"}
       >
         <Heading bgGradient="linear(to-l, #7928CA, #FF0080)" bgClip="text">
           GAMING HUB
