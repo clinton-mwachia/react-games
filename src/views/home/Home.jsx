@@ -5,6 +5,7 @@ import {
   Text,
   Button,
   Container,
+  Stack,
   Center,
 } from "@chakra-ui/react";
 import { useEffect } from "react";
@@ -42,16 +43,35 @@ const Home = () => {
         </Heading>
       </Box>
       {/* Hero Section */}
-      <Container maxW="container.xl" py={10}>
-        <Heading as="h2" size="xl" mb={5}>
-          Play Your Favorite Games As you Learn
-        </Heading>
-        <Text fontSize="lg">
-          Your ultimate destination for endless learning.
-        </Text>
+      <Container maxW={"3xl"}>
+        <Stack
+          as={Box}
+          textAlign={"center"}
+          spacing={{ base: 8, md: 14 }}
+          py={{ base: 20, md: 20 }}
+        >
+          <Heading
+            fontWeight={400}
+            fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+            lineHeight={"110%"}
+          >
+            Hi, I&apos;m Clinton Moshe <br />
+            <Text as={"span"} color={"green.400"} fontSize={"4xl"}>
+              A fullstack developer & Data Scientist
+            </Text>
+          </Heading>
+          <Text fontSize={"2xl"}>
+            I&apos;m proficient in{" "}
+            <b>
+              <i>React, Fastify, Gin, and MongoDB; R, Python, and Shiny</i>
+            </b>
+          </Text>
+          <Text>You can reach me thro [+254746646331] for my services </Text>
+          <Text>In the meantime, enjoy the games</Text>
+        </Stack>
       </Container>
       {/* Featured Games Section */}
-      <Container maxW="container.xl" pb={20}>
+      <Container maxW="container.xl">
         <Heading as="h2" size="xl" mb={6}>
           Featured Games
         </Heading>
