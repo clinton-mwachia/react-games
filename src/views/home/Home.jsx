@@ -59,12 +59,16 @@ const Home = () => {
             <Button onClick={WhatsappContact}>
               <FaWhatsapp />
             </Button>
-            <Link to={"https://github.com/clinton-mwachia"}>
-              <FaGithub />
-            </Link>
-            <Link to={"https://www.quora.com/profile/Clinton-Mwachia"}>
-              <FaQuora />
-            </Link>
+            <Button>
+              <Link to={"https://github.com/clinton-mwachia"}>
+                <FaGithub />
+              </Link>
+            </Button>
+            <Button>
+              <Link to={"https://www.quora.com/profile/Clinton-Mwachia"}>
+                <FaQuora />
+              </Link>
+            </Button>
           </HStack>
         </Center>
         <Stack
