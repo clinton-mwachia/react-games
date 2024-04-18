@@ -83,21 +83,6 @@ const EnglistToKiswahili = () => {
     return options;
   };
 
-  const findRepetitions = (questions) => {
-    const questionSet = new Set();
-    const repeatedQuestions = new Set();
-    for (const questionObj of questions) {
-      const question = questionObj.question;
-      if (questionSet.has(question)) {
-        repeatedQuestions.add(question);
-      }
-      questionSet.add(question);
-    }
-    return Array.from(repeatedQuestions);
-  };
-
-  const hasRepetitionsFlag = findRepetitions(words);
-  console.log("Repetitions found:", hasRepetitionsFlag);
   return (
     <Center h={"100vh"}>
       <Container
