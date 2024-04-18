@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, HStack } from "@chakra-ui/react";
 import {
   SimpleGrid,
   Heading,
@@ -8,8 +8,11 @@ import {
   Stack,
   Center,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { ArrowDownIcon } from "@chakra-ui/icons";
+import { FaWhatsapp, FaGithub } from "react-icons/fa";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   useEffect(() => {
@@ -34,6 +37,13 @@ const Home = () => {
     { to: "/eng-to-kis", name: "english to kiswahili" },
   ];
 
+  const WhatsappContact = () => {
+    const message = `
+    Hello, How are you doing today? what services do you offer?`;
+    const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;
+    window.open(whatsappLink);
+  };
+
   return (
     <Box textAlign="center" fontSize="xl">
       {/* Header */}
@@ -44,30 +54,52 @@ const Home = () => {
       </Box>
       {/* Hero Section */}
       <Container maxW={"3xl"}>
+        <Center mt={3} padding={2}>
+          <HStack spacing={4}>
+            <Button onClick={WhatsappContact}>
+              <FaWhatsapp />
+            </Button>
+            <Link>
+              <FaGithub />
+            </Link>
+          </HStack>
+        </Center>
         <Stack
           as={Box}
           textAlign={"center"}
           spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 20 }}
+          py={5}
         >
+          <Heading fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}>
+            Hello, I&apos;m Clinton Moshe <br />
+          </Heading>
           <Heading
             fontWeight={400}
             fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
             lineHeight={"110%"}
           >
-            Hi, I&apos;m Clinton Moshe <br />
-            <Text as={"span"} color={"green.400"} fontSize={"4xl"}>
+            <Text
+              as={"span"}
+              color={"green.400"}
+              fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+            >
               A fullstack developer & Data Scientist
             </Text>
           </Heading>
-          <Text fontSize={"2xl"}>
-            I&apos;m proficient in{" "}
-            <b>
-              <i>React, Fastify, Gin, and MongoDB; R, Python, and Shiny</i>
-            </b>
-          </Text>
-          <Text>You can reach me thro [+254746646331] for my services </Text>
-          <Text>In the meantime, enjoy the games</Text>
+          <Heading fontWeight={300}>
+            <Typewriter
+              options={{
+                strings: [
+                  "I'm proficient in React, Fastify, Gin, and MongoDB",
+                  "R & Python",
+                  "You can contact me for my services",
+                  "In the meantime, enjoy the games",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </Heading>
         </Stack>
       </Container>
       {/* Featured Games Section */}
