@@ -11,7 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { ArrowDownIcon } from "@chakra-ui/icons";
-import { FaWhatsapp, FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaGithub, FaQuora } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
@@ -59,8 +59,11 @@ const Home = () => {
             <Button onClick={WhatsappContact}>
               <FaWhatsapp />
             </Button>
-            <Link>
+            <Link to={"https://github.com/clinton-mwachia"}>
               <FaGithub />
+            </Link>
+            <Link to={"https://www.quora.com/profile/Clinton-Mwachia"}>
+              <FaQuora />
             </Link>
           </HStack>
         </Center>
