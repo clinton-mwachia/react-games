@@ -1,4 +1,5 @@
-import { Box, HStack } from "@chakra-ui/react";
+/* eslint-disable react/prop-types */
+import { Box } from "@chakra-ui/react";
 import {
   SimpleGrid,
   Heading,
@@ -7,8 +8,9 @@ import {
   Container,
   Stack,
   Center,
+  useColorModeValue,
+  VisuallyHidden,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { ArrowDownIcon } from "@chakra-ui/icons";
 import { FaWhatsapp, FaGithub, FaQuora } from "react-icons/fa";
@@ -19,7 +21,7 @@ const Home = () => {
     document.title = "PAYL";
   }, []);
   const games = [
-    { to: "/color-matching", name: "color-matching" },
+    /* { to: "/color-matching", name: "color-matching" },*/
     /*{ to: "/snake-game", name: "snake-game" },*/
     { to: "/guess-number", name: "guess-number" },
     { to: "/match-capital-city", name: "match-capital" },
@@ -44,6 +46,27 @@ const Home = () => {
     window.open(whatsappLink);
   };
 
+  const SocialButton = ({ children, label, href }) => {
+    return (
+      <Button
+        bg={useColorModeValue("blackAlpha.100", "whiteAlpha.100")}
+        cursor={"pointer"}
+        as={"a"}
+        href={href}
+        display={"inline-flex"}
+        alignItems={"center"}
+        justifyContent={"center"}
+        transition={"background 0.3s ease"}
+        _hover={{
+          bg: useColorModeValue("blackAlpha.200", "whiteAlpha.200"),
+        }}
+      >
+        <VisuallyHidden>{label}</VisuallyHidden>
+        {children}
+      </Button>
+    );
+  };
+
   return (
     <Box textAlign="center" fontSize="xl">
       {/* Header */}
@@ -54,23 +77,6 @@ const Home = () => {
       </Box>
       {/* Hero Section */}
       <Container maxW={"3xl"}>
-        <Center mt={3} padding={2}>
-          <HStack spacing={4}>
-            <Button onClick={WhatsappContact}>
-              <FaWhatsapp />
-            </Button>
-            <Button>
-              <Link to={"https://github.com/clinton-mwachia"}>
-                <FaGithub />
-              </Link>
-            </Button>
-            <Button>
-              <Link to={"https://www.quora.com/profile/Clinton-Mwachia"}>
-                <FaQuora />
-              </Link>
-            </Button>
-          </HStack>
-        </Center>
         <Stack
           as={Box}
           textAlign={"center"}
@@ -140,6 +146,41 @@ const Home = () => {
           </Box>
         </Center>
       </Container>
+      {/**footer */}
+      <Box
+        bg={useColorModeValue("gray.50", "gray.900")}
+        color={useColorModeValue("gray.700", "gray.200")}
+      >
+        <Container
+          as={Stack}
+          maxW={"6xl"}
+          py={4}
+          direction={{ base: "column", md: "row" }}
+          spacing={4}
+          justify={{ base: "center", md: "space-between" }}
+          align={{ base: "center", md: "center" }}
+        >
+          <Text>PAYL</Text>
+          <Text>© 2024 PAYL. All rights reserved</Text>
+          <Stack direction={"row"} spacing={6}>
+            <SocialButton
+              label={"Github"}
+              href={"https://github.com/clinton-mwachia"}
+            >
+              <FaGithub />
+            </SocialButton>
+            <SocialButton
+              label={"Quora"}
+              href={"https://www.quora.com/profile/Clinton-Mwachia"}
+            >
+              <FaQuora />
+            </SocialButton>
+            <Button onClick={WhatsappContact}>
+              <FaWhatsapp />
+            </Button>
+          </Stack>
+        </Container>
+      </Box>
     </Box>
   );
 };
